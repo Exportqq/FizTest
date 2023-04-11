@@ -131,7 +131,6 @@ ul li {
   font-size: 24px;
   line-height: 29px;
   color: #A700FF;
-  letter-spacing: 0.05em;
   margin: 23px 0px 0px 50px;
 }
 
@@ -154,7 +153,6 @@ ul li {
   line-height: 29px;
   color: #A700FF;
   margin: 23px 0px 0px 229px;
-  letter-spacing: 0.05em;
 }
 
 .vertical_line {
@@ -293,6 +291,22 @@ input {outline:none;}
   width: 12px;
 }
 
+.AllNavigationOneCont {
+  padding: 0px 0px 0px 20px;
+}
+
+.navigation_header {
+  padding: 2px 0px 0px 20px;
+}
+
+.NavigationAllItemContOne {
+  padding: 185px 0px 0px 76px;
+}
+
+.navigation_header_two {
+  padding: 13px 0px 0px 35px;
+}
+
 .backround {
   background-image: url(static/wallpaperflare320px.png);
   width: 100%;
@@ -314,10 +328,6 @@ input {outline:none;}
   float: left;
 }
 
-.navigation_header {
-  padding: 2px 0px 0px 44px;
-}
-
 ul li {
   list-style: none;
 }
@@ -326,9 +336,10 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 7px;
-  line-height: 9px;
-  margin: 3px 0px 0px 12px;
+  font-size: 8px;
+  line-height: 10px;
+  color: #FFFFFF;
+  margin: 5px 0px 0px 18px;
   transition: 0.5s;
 }
 
@@ -336,19 +347,20 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 7px;
-  line-height: 9px;
-  margin: 3px 0px 0px 12px;
-  letter-spacing: 0.05em;
+  font-size: 8px;
+  line-height: 10px;
+  color: #A700FF;
+  margin: 5px 0px 0px 18px;
 }
 
 .header_txt_two {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 7px;
-  line-height: 9px;
-  margin: 0px 0px 0px 22px;
+  font-size: 8px;
+  line-height: 10px;
+  color: #FFFFFF;
+  margin: 5px 0px 0px 50px;
   transition: 0.5s;
 }
 
@@ -356,15 +368,15 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 7px;
-  line-height: 9px;
-  margin: 3px 0px 0px 22px;
-  letter-spacing: 0.05em;
+  font-size: 8px;
+  line-height: 10px; 
+  color: #A700FF;
+  margin: 5px 0px 0px 50px;
 }
 
 .vertical_line {
   width: 1px;
-  height: 137px;
+  height: 176px;
   background: radial-gradient(100.46% 100.46% at 50% -0.46%, #29003C 0%, #A700FF 77.08%, rgba(167, 0, 255, 0) 100%);
   margin: 0px 0px 2px 5.5px;
 }
@@ -375,104 +387,93 @@ ul li {
   background-color: #0D1117;
 }
 
-.AllNavigationOneCont {
-  padding: 0px 0px 0px 39.5px;
-}
-
 .container_txt {
   position: absolute;
-  width: 187px;
-  height: 22px;
+  width: 220px;
+  height: 32px;
   font-family: 'Ubuntu', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 10px;
-  line-height: 11px;
+  font-size: 11px;
+  line-height: 13px;
   background: linear-gradient(95.16deg, #AB46CF 0.45%, #5DCF7F 71.52%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin: 136px 0px 0px 4.5px;
+  margin: 170px 0px 0px 5px;
 }
 
 .macscreenimage {
   position: absolute;
-  width: 150px;
-  height: 97px;
+  width: 165px;
+  height: 120px;
 }
 
 .glass_rectangle {
   box-sizing: border-box;
   position: absolute;
-  width: 108px;
-  height: 59px;
+  width: 148px;
+  height: 87px;
   background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   backdrop-filter: blur(40px);
   border-radius: 6px;
-  margin: 45px 0px 0px 57px;
+  margin: 58px 0px 0px 58px;
   opacity: 0.90;
   border: 0px;
 }
 
 .glass_rectangle_txt {
-  width: 90px;
-  height: 15px;
-  font-family: 'Outfit', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 4px;
-  line-height: 5px;
-  color: #FFFFFF;
-  margin: 6px 0px 0px 9px;
-}
-
-.rating_txt {
-  width: 75px;
+  width: 119px;
   height: 23px;
   font-family: 'Outfit', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 4px;
-  line-height: 5px;
+  font-size: 6px;
+  line-height: 8px;
   text-align: center;
   color: #FFFFFF;
-  margin: 9px 0px 0px 0px;
+  margin: 11px 0px 0px 15px;
+}
+
+.rating_txt {
+  width: 106px;
+  height: 33px;
+  font-family: 'Outfit', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6px;
+  line-height: 8px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 11px 0px 0px 0px;
 }
 
 .human_image_navigation {
-  padding: 13px 0px 0px 9px;
-  width: 24px;
-  height: 28px;
+  padding: 15px 0px 0px 9px;
+  width: 34px;
+  height: 40px;
 }
 
 .num_reiting {
   font-family: 'Outfit', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 10px;
-  line-height: 13px;
+  font-size: 14px;
+  line-height: 18px;
   text-align: center;
   color: #FFE925;
 }
 
-.NavigationAllItemContOne {
-  padding: 150px 0px 0px 72.5px;
-}
-
-.navigation_header_two {
-  padding: 13px 0px 0px 45px;
-}
-
 .header_txt_three {
-  width: 140px;
-  height: 51px;
+  width: 159px;
+  height: 60px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 16px;
+  line-height: 20px;
   color: #FFFFFF;
-  margin: 39px 18px 0px 0px;
+  margin: 34px 20px 0px 0px;
 }
 
 .phone_img {
@@ -486,7 +487,7 @@ input {outline:none;}
 /*****************************/
 
 @media (min-width: 321px) and (max-width: 340px) {
-    * {
+  * {
   margin: 0px;
   padding: 0px;
 }
@@ -494,6 +495,22 @@ input {outline:none;}
 .square_img {
   height: 12px;
   width: 12px;
+}
+
+.AllNavigationOneCont {
+  padding: 0px 0px 0px 20px;
+}
+
+.navigation_header {
+  padding: 2px 0px 0px 20px;
+}
+
+.NavigationAllItemContOne {
+  padding: 185px 0px 0px 82px;
+}
+
+.navigation_header_two {
+  padding: 13px 0px 0px 45px;
 }
 
 .backround {
@@ -517,10 +534,6 @@ input {outline:none;}
   float: left;
 }
 
-.navigation_header {
-  padding: 2px 0px 0px 54px;
-}
-
 ul li {
   list-style: none;
 }
@@ -529,9 +542,10 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 7px;
-  line-height: 9px;
-  margin: 3px 0px 0px 12px;
+  font-size: 9px;
+  line-height: 11px;
+  color: #FFFFFF;
+  margin: 5px 0px 0px 18px;
   transition: 0.5s;
 }
 
@@ -539,19 +553,20 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 7px;
-  line-height: 9px;
-  margin: 3px 0px 0px 12px;
-  letter-spacing: 0.05em;
+  font-size: 9px;
+  line-height: 11px; 
+  color: #A700FF;
+  margin: 5px 0px 0px 18px;
 }
 
 .header_txt_two {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 7px;
-  line-height: 9px;
-  margin: 0px 0px 0px 22px;
+  font-size: 9px;
+  line-height: 11px; 
+  color: #FFFFFF;
+  margin: 5px 0px 0px 50px;
   transition: 0.5s;
 }
 
@@ -559,15 +574,15 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 7px;
-  line-height: 9px;
-  margin: 3px 0px 0px 22px;
-  letter-spacing: 0.05em;
+  font-size: 9px;
+  line-height: 11px; 
+  color: #A700FF;
+  margin: 5px 0px 0px 50px;
 }
 
 .vertical_line {
   width: 1px;
-  height: 137px;
+  height: 176px;
   background: radial-gradient(100.46% 100.46% at 50% -0.46%, #29003C 0%, #A700FF 77.08%, rgba(167, 0, 255, 0) 100%);
   margin: 0px 0px 2px 5.5px;
 }
@@ -578,104 +593,93 @@ ul li {
   background-color: #0D1117;
 }
 
-.AllNavigationOneCont {
-  padding: 0px 0px 0px 45px;
-}
-
 .container_txt {
   position: absolute;
-  width: 187px;
-  height: 22px;
+  width: 220px;
+  height: 32px;
   font-family: 'Ubuntu', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 10px;
-  line-height: 11px;
+  font-size: 12px;
+  line-height: 14px;
   background: linear-gradient(95.16deg, #AB46CF 0.45%, #5DCF7F 71.52%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin: 136px 0px 0px 4.5px;
+  margin: 170px 0px 0px 5px;
 }
 
 .macscreenimage {
   position: absolute;
-  width: 150px;
-  height: 97px;
+  width: 190px;
+  height: 130px;
 }
 
 .glass_rectangle {
   box-sizing: border-box;
   position: absolute;
-  width: 108px;
-  height: 59px;
+  width: 148px;
+  height: 97px;
   background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   backdrop-filter: blur(40px);
   border-radius: 6px;
-  margin: 45px 0px 0px 57px;
+  margin: 58px 0px 0px 58px;
   opacity: 0.90;
   border: 0px;
 }
 
 .glass_rectangle_txt {
-  width: 90px;
-  height: 15px;
+  width: 119px;
+  height: 25px;
   font-family: 'Outfit', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 4px;
-  line-height: 5px;
+  font-size: 6px;
+  line-height: 8px;
+  text-align: center;
   color: #FFFFFF;
-  margin: 6px 0px 0px 9px;
+  margin: 12px 0px 0px 15px;
 }
 
 .rating_txt {
-  width: 75px;
-  height: 23px;
-  font-family: 'Outfit', sans-serif;
+  width: 106px;
+  height: 34px;
+  font-family: 'Outfit';
   font-style: normal;
   font-weight: 700;
-  font-size: 4px;
-  line-height: 5px;
+  font-size: 6px;
+  line-height: 8px;
   text-align: center;
   color: #FFFFFF;
-  margin: 9px 0px 0px 0px;
+  margin: 13px 0px 0px 0px;
 }
 
 .human_image_navigation {
-  padding: 13px 0px 0px 9px;
-  width: 24px;
-  height: 28px;
+  padding: 17px 0px 0px 9px;
+  width: 34px;
+  height: 42px;
 }
 
 .num_reiting {
   font-family: 'Outfit', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 10px;
-  line-height: 13px;
+  font-size: 14px;
+  line-height: 18px;
   text-align: center;
   color: #FFE925;
 }
 
-.NavigationAllItemContOne {
-  padding: 150px 0px 0px 72.5px;
-}
-
-.navigation_header_two {
-  padding: 13px 0px 0px 55px;
-}
-
 .header_txt_three {
-  width: 140px;
-  height: 51px;
+  width: 159px;
+  height: 60px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 16px;
+  line-height: 20px;
   color: #FFFFFF;
-  margin: 39px 18px 0px 0px;
+  margin: 34px 20px 0px 0px;
 }
 
 .phone_img {
@@ -689,7 +693,7 @@ input {outline:none;}
 /*****************************/
 
 @media (min-width: 341px) and (max-width: 360px) {
-    * {
+  * {
   margin: 0px;
   padding: 0px;
 }
@@ -700,7 +704,19 @@ input {outline:none;}
 }
 
 .AllNavigationOneCont {
-  padding: 0px 0px 0px 55px;
+  padding: 0px 0px 0px 20px;
+}
+
+.navigation_header {
+  padding: 2px 0px 0px 20px;
+}
+
+.NavigationAllItemContOne {
+  padding: 187px 0px 0px 90px;
+}
+
+.navigation_header_two {
+  padding: 13px 0px 0px 55px;
 }
 
 .backround {
@@ -724,57 +740,55 @@ input {outline:none;}
   float: left;
 }
 
-.navigation_header {
-  padding: 2px 0px 0px 54px;
-}
-
 ul li {
   list-style: none;
 }
 
 .header_txt {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat' ,sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 7px;
-  line-height: 9px;
-  margin: 3px 0px 0px 12px;
+  font-size: 10px;
+  line-height: 12px;
+  color: #FFFFFF;
+  margin: 4px 0px 0px 18px;
   transition: 0.5s;
 }
 
 .header_txt:hover {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat' ,sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 7px;
-  line-height: 9px;
-  margin: 3px 0px 0px 12px;
-  letter-spacing: 0.05em;
+  font-size: 10px;
+  line-height: 12px;
+  color: #A700FF;
+  margin: 4px 0px 0px 18px;
 }
 
 .header_txt_two {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 7px;
-  line-height: 9px;
-  margin: 0px 0px 0px 22px;
+  font-size: 10px;
+  line-height: 12px;  
+  color: #FFFFFF;
+  margin: 4px 0px 0px 50px;
   transition: 0.5s;
 }
 
 .header_txt_two:hover {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat' ,sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 7px;
-  line-height: 9px;
-  margin: 3px 0px 0px 22px;
-  letter-spacing: 0.05em;
+  font-size: 10px;
+  line-height: 12px;
+  color: #A700FF;
+  margin: 4px 0px 0px 50px;
 }
 
 .vertical_line {
   width: 1px;
-  height: 137px;
+  height: 176px;
   background: radial-gradient(100.46% 100.46% at 50% -0.46%, #29003C 0%, #A700FF 77.08%, rgba(167, 0, 255, 0) 100%);
   margin: 0px 0px 2px 5.5px;
 }
@@ -787,98 +801,92 @@ ul li {
 
 .container_txt {
   position: absolute;
-  width: 187px;
-  height: 22px;
-  font-family: 'Ubuntu', sans-serif;
+  width: 255px;
+  height: 32px;
+  font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 500;
-  font-size: 10px;
-  line-height: 11px;
+  font-size: 13px;
+  line-height: 15px;
   background: linear-gradient(95.16deg, #AB46CF 0.45%, #5DCF7F 71.52%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin: 136px 0px 0px 4.5px;
+  margin: 170px 0px 0px 5px;
 }
 
 .macscreenimage {
   position: absolute;
-  width: 150px;
-  height: 97px;
+  width: 210px;
+  height: 140px;
 }
 
 .glass_rectangle {
   box-sizing: border-box;
   position: absolute;
-  width: 108px;
-  height: 59px;
+  width: 165px;
+  height: 106px;
   background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   backdrop-filter: blur(40px);
   border-radius: 6px;
-  margin: 45px 0px 0px 57px;
+  margin: 76px 0px 0px 53px;
   opacity: 0.90;
   border: 0px;
 }
 
 .glass_rectangle_txt {
-  width: 90px;
-  height: 15px;
+  width: 146px;
+  height: 27px;
   font-family: 'Outfit', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 4px;
-  line-height: 5px;
+  font-size: 7px;
+  line-height: 9px;
+  text-align: center;
+  text-align: center;
   color: #FFFFFF;
-  margin: 6px 0px 0px 9px;
+  margin: 11px 0px 0px 10px;
 }
 
 .rating_txt {
-  width: 75px;
-  height: 23px;
-  font-family: 'Outfit', sans-serif;
+  width: 123px;
+  height: 39px;
+  font-family: 'Outfit' ,sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 4px;
-  line-height: 5px;
+  font-size: 7px;
+  line-height: 9px;
   text-align: center;
   color: #FFFFFF;
-  margin: 9px 0px 0px 0px;
+  margin: 18px 0px 0px 0px;
 }
 
 .human_image_navigation {
-  padding: 13px 0px 0px 9px;
-  width: 24px;
-  height: 28px;
+  padding: 23px 0px 0px 7px;
+  width: 35px;
+  height: 51px;
 }
 
 .num_reiting {
   font-family: 'Outfit', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 10px;
-  line-height: 13px;
+  font-size: 14px;
+  line-height: 18px;
   text-align: center;
   color: #FFE925;
 }
 
-.NavigationAllItemContOne {
-  padding: 150px 0px 0px 72.5px;
-}
-
-.navigation_header_two {
-  padding: 13px 0px 0px 55px;
-}
-
 .header_txt_three {
-  width: 140px;
-  height: 51px;
+  width: 159px;
+  height: 60px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 16px;
+  line-height: 20px;
   color: #FFFFFF;
-  margin: 39px 18px 0px 0px;
+  margin: 34px 20px 0px 0px;
 }
 
 .phone_img {
@@ -888,11 +896,10 @@ ul li {
 
 input {outline:none;}
 }
-
 /*****************************/
 
 @media (min-width: 361px) and (max-width: 380px) {
-    * {
+  * {
   margin: 0px;
   padding: 0px;
 }
@@ -903,7 +910,19 @@ input {outline:none;}
 }
 
 .AllNavigationOneCont {
-  padding: 0px 0px 0px 45px;
+  padding: 0px 0px 0px 20px;
+}
+
+.navigation_header {
+  padding: 7px 0px 0px 20px;
+}
+
+.NavigationAllItemContOne {
+  padding: 190px 0px 0px 98px;
+}
+
+.navigation_header_two {
+  padding: 10px 0px 0px 52px;
 }
 
 .backround {
@@ -927,10 +946,6 @@ input {outline:none;}
   float: left;
 }
 
-.navigation_header {
-  padding: 7px 0px 0px 74px;
-}
-
 ul li {
   list-style: none;
 }
@@ -939,9 +954,10 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 8px;
-  line-height: 10px;
-  margin: 6px 0px 0px 12px;
+  font-size: 11px;
+  line-height: 13px;
+  color: #FFFFFF;
+  margin: 4px 0px 0px 24px;
   transition: 0.5s;
 }
 
@@ -949,19 +965,20 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 8px;
-  line-height: 10px;
-  margin: 6px 0px 0px 12px;
-  letter-spacing: 0.05em;
+  font-size: 11px;
+  line-height: 13px;
+  color: #A700FF;
+  margin: 4px 0px 0px 24px;
 }
 
 .header_txt_two {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 8px;
-  line-height: 10px;
-  margin: 6px 0px 0px 22px;
+  font-size: 11px;
+  line-height: 13px;
+  color: #FFFFFF;
+  margin: 4px 0px 0px 39px;
   transition: 0.5s;
 }
 
@@ -969,10 +986,10 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 8px;
-  line-height: 10px;
-  margin: 6px 0px 0px 22px;
-  letter-spacing: 0.05em;
+  font-size: 11px;
+  line-height: 13px;
+  color: #A700FF;
+  margin: 4px 0px 0px 39px;
 }
 
 .vertical_line {
@@ -990,98 +1007,91 @@ ul li {
 
 .container_txt {
   position: absolute;
-  width: 219px;
-  height: 29px;
+  width: 256px;
+  height: 32px;
   font-family: 'Ubuntu', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 14px;
+  line-height: 16px;
   background: linear-gradient(95.16deg, #AB46CF 0.45%, #5DCF7F 71.52%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin: 172px 0px 0px 5px;
+  margin: 170px 0px 0px 5px;
 }
 
 .macscreenimage {
   position: absolute;
-  width: 163px;
-  height: 101px;
+  width: 210px;
+  height: 140px;
 }
 
 .glass_rectangle {
   box-sizing: border-box;
   position: absolute;
-  width: 148px;
-  height: 77px;
+  width: 179px;
+  height: 114px;
   background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   backdrop-filter: blur(40px);
   border-radius: 6px;
-  margin: 45px 0px 0px 57px;
+  margin: 70px 0px 0px 51px;
   opacity: 0.90;
   border: 0px;
 }
 
 .glass_rectangle_txt {
-  width: 119px;
-  height: 24px;
+  width: 158px;
+  height: 36px;
   font-family: 'Outfit', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 6px;
-  line-height: 8px;
+  font-size: 8px;
+  line-height: 10px;
   text-align: center;
   color: #FFFFFF;
-  margin: 7px 0px 0px 14px;
+  margin: 12px 0px 0px 11px;
 }
 
 .rating_txt {
-  width: 100px;
-  height: 30px;
+  width: 133px;
+  height: 41px;
   font-family: 'Outfit', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 6px;
-  line-height: 8px;
+  font-size: 8px;
+  line-height: 10px;
   text-align: center;
-  margin: 9px 0px 0px 0px;
+  color: #FFFFFF;
+  margin: 13px 0px 0px 0px;
 }
 
 .human_image_navigation {
-  padding: 12px 0px 0px 9px;
-  width: 34px;
-  height: 37px;
+  padding: 19px 0px 0px 9px;
+  width: 39px;
+  height: 49px;
 }
 
 .num_reiting {
   font-family: 'Outfit', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 11px;
-  line-height: 14px;
+  font-size: 14px;
+  line-height: 18px;
   text-align: center;
   color: #FFE925;
 }
 
-.NavigationAllItemContOne {
-  padding: 189px 0px 0px 82px;
-}
-
-.navigation_header_two {
-  padding: 10px 0px 0px 69px;
-}
-
 .header_txt_three {
-  width: 150px;
-  height: 54px;
-  font-family: 'Montserrat';
+  width: 179px;
+  height: 66px;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 15px;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 22px;
   color: #FFFFFF;
-  margin: 46px 15px 0px 0px;
+  margin: 45px 20px 0px 0px;
 }
 
 .phone_img {
@@ -1095,7 +1105,7 @@ input {outline:none;}
 /*****************************/
 
 @media (min-width: 381px) and (max-width: 400px) {
-    * {
+* {
   margin: 0px;
   padding: 0px;
 }
@@ -1106,19 +1116,19 @@ input {outline:none;}
 }
 
 .AllNavigationOneCont {
-  padding: 0px 0px 0px 55px;
+  padding: 0px 0px 0px 20px;
 }
 
 .navigation_header {
-  padding: 7px 0px 0px 84px;
+  padding: 7px 0px 0px 20px;
 }
 
 .NavigationAllItemContOne {
-  padding: 189px 0px 0px 82px;
+  padding: 190px 0px 0px 98px;
 }
 
 .navigation_header_two {
-  padding: 10px 0px 0px 79px;
+  padding: 10px 0px 0px 62px;
 }
 
 .backround {
@@ -1150,9 +1160,10 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 8px;
-  line-height: 10px;
-  margin: 6px 0px 0px 12px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  margin: 3px 0px 0px 20px;
   transition: 0.5s;
 }
 
@@ -1160,19 +1171,20 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 8px;
-  line-height: 10px;
-  margin: 6px 0px 0px 12px;
-  letter-spacing: 0.05em;
+  font-size: 12px;
+  line-height: 15px;
+  color: #A700FF;
+  margin: 3px 0px 0px 20px;
 }
 
 .header_txt_two {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 8px;
-  line-height: 10px;
-  margin: 6px 0px 0px 22px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  margin: 3px 0px 0px 47px;
   transition: 0.5s;
 }
 
@@ -1180,10 +1192,10 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 8px;
-  line-height: 10px;
-  margin: 6px 0px 0px 22px;
-  letter-spacing: 0.05em;
+  font-size: 12px;
+  line-height: 15px;
+  color: #A700FF;
+  margin: 3px 0px 0px 47px;
 }
 
 .vertical_line {
@@ -1201,90 +1213,91 @@ ul li {
 
 .container_txt {
   position: absolute;
-  width: 219px;
-  height: 29px;
+  width: 256px;
+  height: 32px;
   font-family: 'Ubuntu', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 14px;
+  line-height: 16px;
   background: linear-gradient(95.16deg, #AB46CF 0.45%, #5DCF7F 71.52%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin: 172px 0px 0px 5px;
+  margin: 170px 0px 0px 5px;
 }
 
 .macscreenimage {
   position: absolute;
-  width: 163px;
-  height: 101px;
+  width: 225px;
+  height: 141px;
 }
 
 .glass_rectangle {
   box-sizing: border-box;
   position: absolute;
-  width: 148px;
-  height: 77px;
+  width: 188px;
+  height: 114px;
   background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   backdrop-filter: blur(40px);
   border-radius: 6px;
-  margin: 45px 0px 0px 57px;
+  margin: 70px 0px 0px 62px;
   opacity: 0.90;
   border: 0px;
 }
 
 .glass_rectangle_txt {
-  width: 119px;
-  height: 24px;
+  width: 158px;
+  height: 36px;
   font-family: 'Outfit', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 6px;
-  line-height: 8px;
+  font-size: 8px;
+  line-height: 10px;
   text-align: center;
   color: #FFFFFF;
-  margin: 7px 0px 0px 14px;
+  margin: 12px 0px 0px 15px;
 }
 
 .rating_txt {
-  width: 100px;
-  height: 30px;
+  width: 133px;
+  height: 41px;
   font-family: 'Outfit', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 6px;
-  line-height: 8px;
+  font-size: 8px;
+  line-height: 10px;
   text-align: center;
-  margin: 9px 0px 0px 0px;
+  color: #FFFFFF;
+  margin: 13px 0px 0px 0px;
 }
 
 .human_image_navigation {
-  padding: 12px 0px 0px 9px;
-  width: 34px;
-  height: 37px;
+  padding: 19px 0px 0px 13px;
+  width: 43px;
+  height: 49px;
 }
 
 .num_reiting {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Outfit';
   font-style: normal;
   font-weight: 700;
-  font-size: 11px;
-  line-height: 14px;
+  font-size: 14px;
+  line-height: 18px;
   text-align: center;
   color: #FFE925;
 }
 
 .header_txt_three {
-  width: 150px;
-  height: 54px;
-  font-family: 'Montserrat';
+  width: 179px;
+  height: 66px;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 15px;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 22px;
   color: #FFFFFF;
-  margin: 46px 15px 0px 0px;
+  margin: 45px 20px 0px 0px;
 }
 
 .phone_img {
@@ -1298,7 +1311,7 @@ input {outline:none;}
 /*****************************/
 
 @media (min-width: 401px) and (max-width: 420px) {
-    * {
+* {
   margin: 0px;
   padding: 0px;
 }
@@ -1317,7 +1330,7 @@ input {outline:none;}
 }
 
 .NavigationAllItemContOne {
-  padding: 192px 0px 0px 98px;
+  padding: 190px 0px 0px 98px;
 }
 
 .navigation_header_two {
@@ -1368,7 +1381,6 @@ ul li {
   line-height: 15px;
   color: #A700FF;
   margin: 3px 0px 0px 20px;
-  letter-spacing: 0.05em;
 }
 
 .header_txt_two {
@@ -1390,7 +1402,6 @@ ul li {
   line-height: 15px;
   color: #A700FF;
   margin: 3px 0px 0px 67px;
-  letter-spacing: 0.05em;
 }
 
 .vertical_line {
@@ -1436,7 +1447,7 @@ ul li {
   background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   backdrop-filter: blur(40px);
   border-radius: 6px;
-  margin: 45px 0px 0px 57px;
+  margin: 66px 0px 0px 66px;
   opacity: 0.90;
   border: 0px;
 }
@@ -1474,7 +1485,7 @@ ul li {
 }
 
 .num_reiting {
-  font-family: 'Outfit';
+  font-family: 'Outfit' ,sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -1486,7 +1497,7 @@ ul li {
 .header_txt_three {
   width: 179px;
   height: 66px;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -1574,7 +1585,6 @@ ul li {
   font-size: 9px;
   line-height: 11px;
   margin: 7px 0px 0px 15px;
-  letter-spacing: 0.05em;
 }
 
 .header_txt_two {
@@ -1594,7 +1604,6 @@ ul li {
   font-size: 9px;
   line-height: 11px;
   margin: 7px 0px 0px 30px;
-  letter-spacing: 0.05em;
 }
 
 .vertical_line {
@@ -1776,7 +1785,6 @@ ul li {
   font-size: 9px;
   line-height: 11px;
   margin: 7px 0px 0px 15px;
-  letter-spacing: 0.05em;
 }
 
 .header_txt_two {
@@ -1796,7 +1804,6 @@ ul li {
   font-size: 9px;
   line-height: 11px;
   margin: 7px 0px 0px 30px;
-  letter-spacing: 0.05em;
 }
 
 .vertical_line {
