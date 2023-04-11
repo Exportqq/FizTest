@@ -73,7 +73,7 @@ import 'aos/dist/aos.css'
 export default {
   data() {
     return {
-      IphoneImage: "phone.png"
+
     }
   },
   mounted() {
@@ -1309,19 +1309,19 @@ input {outline:none;}
 }
 
 .AllNavigationOneCont {
-  padding: 0px 0px 0px 65px;
+  padding: 0px 0px 0px 20px;
 }
 
 .navigation_header {
-  padding: 7px 0px 0px 94px;
+  padding: 7px 0px 0px 20px;
 }
 
 .NavigationAllItemContOne {
-  padding: 189px 0px 0px 82px;
+  padding: 192px 0px 0px 98px;
 }
 
 .navigation_header_two {
-  padding: 10px 0px 0px 89px;
+  padding: 10px 0px 0px 72px;
 }
 
 .backround {
@@ -1353,9 +1353,10 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 8px;
-  line-height: 10px;
-  margin: 6px 0px 0px 12px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  margin: 3px 0px 0px 20px;
   transition: 0.5s;
 }
 
@@ -1363,9 +1364,10 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 8px;
-  line-height: 10px;
-  margin: 6px 0px 0px 12px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #A700FF;
+  margin: 3px 0px 0px 20px;
   letter-spacing: 0.05em;
 }
 
@@ -1373,9 +1375,10 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 8px;
-  line-height: 10px;
-  margin: 6px 0px 0px 22px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  margin: 3px 0px 0px 67px;
   transition: 0.5s;
 }
 
@@ -1383,9 +1386,10 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 8px;
-  line-height: 10px;
-  margin: 6px 0px 0px 22px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #A700FF;
+  margin: 3px 0px 0px 67px;
   letter-spacing: 0.05em;
 }
 
@@ -1404,31 +1408,31 @@ ul li {
 
 .container_txt {
   position: absolute;
-  width: 219px;
-  height: 29px;
+  width: 256px;
+  height: 32px;
   font-family: 'Ubuntu', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 14px;
+  line-height: 16px;
   background: linear-gradient(95.16deg, #AB46CF 0.45%, #5DCF7F 71.52%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin: 172px 0px 0px 5px;
+  margin: 170px 0px 0px 5px;
 }
 
 .macscreenimage {
   position: absolute;
-  width: 163px;
-  height: 101px;
+  width: 225px;
+  height: 141px;
 }
 
 .glass_rectangle {
   box-sizing: border-box;
   position: absolute;
-  width: 148px;
-  height: 77px;
+  width: 204px;
+  height: 114px;
   background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   backdrop-filter: blur(40px);
   border-radius: 6px;
@@ -1438,56 +1442,57 @@ ul li {
 }
 
 .glass_rectangle_txt {
-  width: 119px;
-  height: 24px;
+  width: 178px;
+  height: 36px;
   font-family: 'Outfit', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 6px;
-  line-height: 8px;
+  font-size: 9px;
+  line-height: 11px;
   text-align: center;
   color: #FFFFFF;
-  margin: 7px 0px 0px 14px;
+  margin: 12px 0px 0px 13px;
 }
 
 .rating_txt {
-  width: 100px;
-  height: 30px;
+  width: 154px;
+  height: 41px;
   font-family: 'Outfit', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 6px;
-  line-height: 8px;
+  font-size: 9px;
+  line-height: 11px;
   text-align: center;
-  margin: 9px 0px 0px 0px;
+  color: #FFFFFF;
+  margin: 13px 0px 0px 0px;
 }
 
 .human_image_navigation {
-  padding: 12px 0px 0px 9px;
-  width: 34px;
-  height: 37px;
+  padding: 19px 0px 0px 10px;
+  width: 40px;
+  height: 49px;
 }
 
 .num_reiting {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Outfit';
   font-style: normal;
   font-weight: 700;
-  font-size: 11px;
-  line-height: 14px;
+  font-size: 14px;
+  line-height: 18px;
   text-align: center;
   color: #FFE925;
 }
 
 .header_txt_three {
-  width: 150px;
-  height: 54px;
+  width: 179px;
+  height: 66px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  font-size: 15px;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 22px;
   color: #FFFFFF;
-  margin: 46px 15px 0px 0px;
+  margin: 45px 20px 0px 0px;
 }
 
 .phone_img {
