@@ -417,7 +417,7 @@ ul li {
   background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   backdrop-filter: blur(40px);
   border-radius: 6px;
-  margin: 58px 0px 0px 58px;
+  margin: 58px 0px 0px 44px;
   opacity: 0.90;
   border: 0px;
 }
@@ -1517,7 +1517,7 @@ input {outline:none;}
 /*****************************/
 
 @media (min-width: 421px) and (max-width: 440px) {
-    * {
+  * {
   margin: 0px;
   padding: 0px;
 }
@@ -1528,19 +1528,19 @@ input {outline:none;}
 }
 
 .AllNavigationOneCont {
-  padding: 0px 0px 0px 57px;
+  padding: 0px 0px 0px 20px;
 }
 
 .navigation_header {
-  padding: 10px 0px 0px 78px;
+  padding: 10px 0px 0px 20px;
 }
 
 .NavigationAllItemContOne {
-  padding: 190px 0px 0px 97px;
+  padding: 189px 0px 0px 102px;
 }
 
 .navigation_header_two {
-  padding: 15px 0px 0px 94px;
+  padding: 15px 0px 0px 82px;
 }
 
 .backround {
@@ -1557,7 +1557,7 @@ input {outline:none;}
 
 .logo {
   width: 45px;
-  height: 21px;
+  height: 25px;
 }
 
 .list li {
@@ -1572,9 +1572,10 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 9px;
-  line-height: 11px;
-  margin: 7px 0px 0px 15px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  margin: 5px 0px 0px 20px;
   transition: 0.5s;
 }
 
@@ -1582,18 +1583,21 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 9px;
-  line-height: 11px;
-  margin: 7px 0px 0px 15px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  margin: 5px 0px 0px 20px;
+  color: #A700FF;
 }
 
 .header_txt_two {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 9px;
-  line-height: 11px;
-  margin: 7px 0px 0px 30px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  margin: 5px 0px 0px 77px;
   transition: 0.5s;
 }
 
@@ -1601,9 +1605,10 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 9px;
-  line-height: 11px;
-  margin: 7px 0px 0px 30px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #A700FF;
+  margin: 5px 0px 0px 77px;
 }
 
 .vertical_line {
@@ -1621,89 +1626,91 @@ ul li {
 
 .container_txt {
   position: absolute;
-  width: 269px;
-  height: 31px;
-  font-family: 'Ubuntu', sans-serif;
+  width: 274px;
+  height: 32px;
+  font-family: 'Ubuntu', sans-serif ;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 15px;
+  line-height: 17px;
   background: linear-gradient(95.16deg, #AB46CF 0.45%, #5DCF7F 71.52%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin: 172px 0px 0px 5px;
+  margin: 170px 0px 0px 5px;
 }
 
 .macscreenimage {
   position: absolute;
-  width: 192px;
-  height: 117px;
+  width: 234px;
+  height: 155px;
 }
 
 .glass_rectangle {
   box-sizing: border-box;
   position: absolute;
-  width: 177px;
-  height: 93px;
+  width: 204px;
+  height: 114px;
   background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   backdrop-filter: blur(40px);
   border-radius: 6px;
-  margin: 54px 0px 0px 40px;
+  margin: 70px 0px 0px 82px;
   opacity: 0.90;
   border: 0px;
 }
 
 .glass_rectangle_txt {
-  width: 142px;
-  height: 29px;
-  font-family: 'Outfit', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 7px;
-  line-height: 9px;
-  text-align: center;
-  margin: 9px 0px 0px 18px;
-}
-
-.rating_txt {
-  width: 120px;
+  width: 178px;
   height: 36px;
   font-family: 'Outfit', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 7px;
-  line-height: 9px;
+  font-size: 9px;
+  line-height: 11px;
   text-align: center;
-  margin: 10px 0px 0px 0px;
+  color: #FFFFFF;
+  margin: 12px 0px 0px 13px;
+}
+
+.rating_txt {
+  width: 154px;
+  height: 41px;
+  font-family: 'Outfit', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 11px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 13px 0px 0px 0px;
 }
 
 .human_image_navigation {
-  padding: 13px 0px 0px 14px;
-  width: 44px;
-  height: 43px;
+  padding: 19px 0px 0px 10px;
+  width: 30px;
+  height: 30px;
 }
 
 .num_reiting {
   font-family: 'Outfit', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 18px;
   text-align: center;
   color: #FFE925;
 }
 
 .header_txt_three {
-  width: 160px;
-  height: 60px;
+  width: 179px;
+  height: 66px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 22px;
   color: #FFFFFF;
-  margin: 46px 15px 0px 0px;
+  margin: 39px 20px 0px 0px;
 }
 
 .phone_img {
@@ -1717,7 +1724,7 @@ input {outline:none;}
 /*****************************/
 
 @media (min-width: 441px) and (max-width: 460px) {
-    * {
+  * {
   margin: 0px;
   padding: 0px;
 }
@@ -1728,19 +1735,19 @@ input {outline:none;}
 }
 
 .AllNavigationOneCont {
-  padding: 0px 0px 0px 67px;
+  padding: 0px 0px 0px 20px;
 }
 
 .navigation_header {
-  padding: 10px 0px 0px 88px;
+  padding: 10px 0px 0px 20px;
 }
 
 .NavigationAllItemContOne {
-  padding: 190px 0px 0px 97px;
+  padding: 189px 0px 0px 102px;
 }
 
 .navigation_header_two {
-  padding: 15px 0px 0px 104px;
+  padding: 15px 0px 0px 92px;
 }
 
 .backround {
@@ -1757,7 +1764,7 @@ input {outline:none;}
 
 .logo {
   width: 45px;
-  height: 21px;
+  height: 25px;
 }
 
 .list li {
@@ -1772,9 +1779,10 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 9px;
-  line-height: 11px;
-  margin: 7px 0px 0px 15px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  margin: 5px 0px 0px 20px;
   transition: 0.5s;
 }
 
@@ -1782,18 +1790,21 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 9px;
-  line-height: 11px;
-  margin: 7px 0px 0px 15px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  margin: 5px 0px 0px 20px;
+  color: #A700FF;
 }
 
 .header_txt_two {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 9px;
-  line-height: 11px;
-  margin: 7px 0px 0px 30px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  margin: 5px 0px 0px 97px;
   transition: 0.5s;
 }
 
@@ -1801,9 +1812,10 @@ ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 9px;
-  line-height: 11px;
-  margin: 7px 0px 0px 30px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #A700FF;
+  margin: 5px 0px 0px 97px;
 }
 
 .vertical_line {
@@ -1821,89 +1833,91 @@ ul li {
 
 .container_txt {
   position: absolute;
-  width: 269px;
-  height: 31px;
-  font-family: 'Ubuntu', sans-serif;
+  width: 274px;
+  height: 32px;
+  font-family: 'Ubuntu', sans-serif ;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 15px;
+  line-height: 17px;
   background: linear-gradient(95.16deg, #AB46CF 0.45%, #5DCF7F 71.52%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin: 172px 0px 0px 5px;
+  margin: 170px 0px 0px 5px;
 }
 
 .macscreenimage {
   position: absolute;
-  width: 192px;
-  height: 117px;
+  width: 244px;
+  height: 164px;
 }
 
 .glass_rectangle {
   box-sizing: border-box;
   position: absolute;
-  width: 177px;
-  height: 93px;
+  width: 214px;
+  height: 124px;
   background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   backdrop-filter: blur(40px);
   border-radius: 6px;
-  margin: 54px 0px 0px 40px;
+  margin: 70px 0px 0px 92px;
   opacity: 0.90;
   border: 0px;
 }
 
 .glass_rectangle_txt {
-  width: 142px;
-  height: 29px;
+  width: 178px;
+  height: 39px;
   font-family: 'Outfit', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 7px;
-  line-height: 9px;
+  font-size: 9px;
+  line-height: 11px;
   text-align: center;
-  margin: 9px 0px 0px 18px;
+  color: #FFFFFF;
+  margin: 15px 0px 0px 18px;
 }
 
 .rating_txt {
-  width: 120px;
-  height: 36px;
+  width: 158px;
+  height: 42px;
   font-family: 'Outfit', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 7px;
-  line-height: 9px;
+  font-size: 9px;
+  line-height: 11px;
   text-align: center;
-  margin: 10px 0px 0px 0px;
+  color: #FFFFFF;
+  margin: 13px 0px 0px 0px;
 }
 
 .human_image_navigation {
-  padding: 13px 0px 0px 14px;
-  width: 44px;
-  height: 43px;
+  padding: 14px 0px 0px 8px;
+  width: 40px;
+  height: 40px;
 }
 
 .num_reiting {
   font-family: 'Outfit', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 18px;
   text-align: center;
   color: #FFE925;
 }
 
 .header_txt_three {
-  width: 160px;
-  height: 60px;
+  width: 179px;
+  height: 66px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 22px;
   color: #FFFFFF;
-  margin: 46px 15px 0px 0px;
+  margin: 39px 20px 0px 0px;
 }
 
 .phone_img {
