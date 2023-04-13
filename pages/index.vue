@@ -283,7 +283,7 @@ input {outline:none;}
 /********************************************/
 
 @media (min-width: 300px) and (max-width: 320px) {
-  * {
+* {
   margin: 0px;
   padding: 0px;
 }

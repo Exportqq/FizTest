@@ -6,7 +6,7 @@
             <ul class="list">
               <li>
                 <button onclick="window.location.href='/index'">
-                    <img class="logo" src="logo.png">
+                    <img class="logo" src="/logo.png">
                 </button>
               </li>
               <li>
@@ -31,7 +31,7 @@
   }
   </script>
   
-  <style>
+<style>
   * {
     margin: 0px;
     padding: 0px;
@@ -105,7 +105,7 @@
   /********************************************/
   
   @media (min-width: 300px) and (max-width: 320px) {
-    * {
+* {
     margin: 0px;
     padding: 0px;
   }
@@ -174,7 +174,7 @@
     color: #A700FF;
     margin: 5px 0px 0px 50px;
   }
-  
+}
   /*****************************/
   
   @media (min-width: 321px) and (max-width: 340px) {
@@ -247,7 +247,7 @@
     color: #A700FF;
     margin: 5px 0px 0px 50px;
   }
-  }
+}
   /*****************************/
   
   @media (min-width: 341px) and (max-width: 360px) {
@@ -320,7 +320,7 @@
     color: #A700FF;
     margin: 4px 0px 0px 50px;
   }
-  }
+}
   /*****************************/
   
   @media (min-width: 361px) and (max-width: 380px) {
@@ -393,7 +393,7 @@
     color: #A700FF;
     margin: 4px 0px 0px 39px;
   }
-  }
+}
   /*****************************/
   
   @media (min-width: 381px) and (max-width: 400px) {
@@ -466,7 +466,7 @@
     color: #A700FF;
     margin: 3px 0px 0px 47px;
   }
-  }
+}
   /*****************************/
   
   @media (min-width: 401px) and (max-width: 420px) {
@@ -539,7 +539,7 @@
     color: #A700FF;
     margin: 3px 0px 0px 67px;
   }
-  }
+}
   /*****************************/
   
   @media (min-width: 421px) and (max-width: 440px) {
@@ -613,7 +613,7 @@
     color: #A700FF;
     margin: 5px 0px 0px 77px;
   }
-  }
+}
   /*****************************/
   
   @media (min-width: 441px) and (max-width: 460px) {
@@ -687,8 +687,6 @@
     color: #A700FF;
     margin: 5px 0px 0px 97px;
   }
-  }
-  }
-  
-  </style>
+}
+</style>
   
