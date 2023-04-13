@@ -5,16 +5,18 @@
         <div class="navigation_header">
           <ul class="list">
             <li>
-              <img class="logo" src="logo.png">
+              <button onclick="window.location.href='/index'">
+                  <img class="logo" src="logo.png">
+              </button>
             </li>
             <li>
-              <button class="header_txt_two">Законы</button>
+              <button onclick="window.location.href='/laws';" class="header_txt_two">Законы</button>
             </li>
             <li>
-              <button class="header_txt">Теория</button>
+              <button onclick="window.location.href='/theory';" class="header_txt">Теория</button>
             </li>
             <li>
-              <button class="header_txt">Лабораторные работы</button>
+              <button onclick="window.location.href='/laboratory';" class="header_txt">Лабораторные работы</button>
             </li>
           </ul>
         </div>
@@ -389,7 +391,7 @@ ul li {
 
 .container_txt {
   position: absolute;
-  width: 220px;
+  width: 230px;
   height: 32px;
   font-family: 'Ubuntu', sans-serif;
   font-style: normal;
@@ -595,7 +597,7 @@ ul li {
 
 .container_txt {
   position: absolute;
-  width: 220px;
+  width: 230px;
   height: 32px;
   font-family: 'Ubuntu', sans-serif;
   font-style: normal;
@@ -801,7 +803,7 @@ ul li {
 
 .container_txt {
   position: absolute;
-  width: 255px;
+  width: 265px;
   height: 32px;
   font-family: 'Ubuntu';
   font-style: normal;
@@ -1007,7 +1009,7 @@ ul li {
 
 .container_txt {
   position: absolute;
-  width: 256px;
+  width: 266px;
   height: 32px;
   font-family: 'Ubuntu', sans-serif;
   font-style: normal;
@@ -1213,7 +1215,7 @@ ul li {
 
 .container_txt {
   position: absolute;
-  width: 256px;
+  width: 266px;
   height: 32px;
   font-family: 'Ubuntu', sans-serif;
   font-style: normal;
@@ -1419,7 +1421,7 @@ ul li {
 
 .container_txt {
   position: absolute;
-  width: 256px;
+  width: 266px;
   height: 32px;
   font-family: 'Ubuntu', sans-serif;
   font-style: normal;
@@ -1626,7 +1628,7 @@ ul li {
 
 .container_txt {
   position: absolute;
-  width: 274px;
+  width: 284px;
   height: 32px;
   font-family: 'Ubuntu', sans-serif ;
   font-style: normal;
@@ -1687,8 +1689,8 @@ ul li {
 
 .human_image_navigation {
   padding: 19px 0px 0px 10px;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 49px;
 }
 
 .num_reiting {
@@ -1833,7 +1835,7 @@ ul li {
 
 .container_txt {
   position: absolute;
-  width: 274px;
+  width: 284px;
   height: 32px;
   font-family: 'Ubuntu', sans-serif ;
   font-style: normal;
