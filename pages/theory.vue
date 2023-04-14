@@ -24,8 +24,11 @@
                 </div>
                 <div>
                     <p class="container_txt">Теоритический материал</p>
-                    <div>
+                    <div class="show-on-desktop">
                       <AdsYandex :id="'R-A-2303256-1'"/>
+                    </div>
+                    <div class="show-on-mobile">
+                      <AdsYandex :id="'R-A-2303256-2'"/>
                     </div>
                     <div class="navigation_all_container">
                         <div class="searcher_rectangle">
@@ -286,7 +289,14 @@ button {
 }
 
 /********************************************/
-  
+@media (min-width: 761px) {
+  .show-on-mobile { display: none !important; }
+}
+
+@media (max-width: 760px) {
+  .show-on-desktop { display: none !important; }
+}
+
 @media (min-width: 300px) and (max-width: 320px) {
 * {
     margin: 0px;
