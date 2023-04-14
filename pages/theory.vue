@@ -27,7 +27,7 @@
                     <div class="show-on-desktop">
                       <AdsYandex :id="'R-A-2303256-1'"/>
                     </div>
-                    <div class="show-on-mobile">
+                    <div>
                       <AdsYandex :id="'R-A-2303256-2'"/>
                     </div>
                     <div class="navigation_all_container">
