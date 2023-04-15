@@ -10,7 +10,7 @@
               </button>
             </li>
             <li>
-              <button class="header_txt_two">Законы</button>
+              <button style="color: #A700FF;" class="header_txt_two">Законы</button>
             </li>
             <li>
               <button onclick="window.location.href='/theory';" class="header_txt">Теория</button>
@@ -450,7 +450,7 @@ export default {
     font-size: 12px;
     line-height: 15px;
     color: #FFFFFF;
-    margin: 10px 0px 0px 10px;
+    margin: 9px 0px 0px 10px;
   }
   
   .btn_laws_on {
@@ -465,7 +465,7 @@ export default {
     line-height: 10px;
     text-align: center;
     color: #FFFFFF;
-    margin: 10px 0px 0px 5px;
+    margin: 9px 0px 0px 5px;
   }
 
   .container_txt {
@@ -647,7 +647,7 @@ export default {
     font-size: 12px;
     line-height: 15px;
     color: #FFFFFF;
-    margin: 10px 0px 0px 10px;
+    margin: 9px 0px 0px 10px;
   }
   
   .btn_laws_on {
@@ -662,7 +662,7 @@ export default {
     line-height: 10px;
     text-align: center;
     color: #FFFFFF;
-    margin: 10px 0px 0px 5px;
+    margin: 9px 0px 0px 5px;
   }
 
   .container_txt {
@@ -844,7 +844,7 @@ export default {
     font-size: 12px;
     line-height: 15px;
     color: #FFFFFF;
-    margin: 10px 0px 0px 20px;
+    margin: 9px 0px 0px 20px;
   }
   
   .btn_laws_on {
@@ -859,7 +859,7 @@ export default {
     line-height: 10px;
     text-align: center;
     color: #FFFFFF;
-    margin: 10px 0px 0px 5px;
+    margin: 9px 0px 0px 5px;
   }
 
   .container_txt {
@@ -1041,7 +1041,7 @@ export default {
     font-size: 12px;
     line-height: 15px;
     color: #FFFFFF;
-    margin: 10px 0px 0px 25px;
+    margin: 9px 0px 0px 25px;
   }
   
   .btn_laws_on {
@@ -1056,7 +1056,7 @@ export default {
     line-height: 10px;
     text-align: center;
     color: #FFFFFF;
-    margin: 10px 0px 0px 5px;
+    margin: 9px 0px 0px 5px;
   }
 
   .container_txt {
@@ -1238,7 +1238,7 @@ export default {
     font-size: 12px;
     line-height: 15px;
     color: #FFFFFF;
-    margin: 10px 0px 0px 35px;
+    margin: 9px 0px 0px 35px;
   }
   
   .btn_laws_on {
@@ -1253,7 +1253,7 @@ export default {
     line-height: 10px;
     text-align: center;
     color: #FFFFFF;
-    margin: 10px 0px 0px 5px;
+    margin: 9px 0px 0px 5px;
   }
 
   .container_txt {
@@ -1435,7 +1435,7 @@ export default {
     font-size: 13px;
     line-height: 16px;
     color: #FFFFFF;
-    margin: 10px 0px 0px 35px;
+    margin: 8px 0px 0px 35px;
   }
   
   .btn_laws_on {
@@ -1450,7 +1450,7 @@ export default {
     line-height: 12px;
     text-align: center;
     color: #FFFFFF;
-    margin: 8px 0px 0px 5px;
+    margin: 7px 0px 0px 5px;
   }
 
   .container_txt {
@@ -1633,7 +1633,7 @@ export default {
     font-size: 13px;
     line-height: 16px;
     color: #FFFFFF;
-    margin: 10px 0px 0px 35px;
+    margin: 8px 0px 0px 35px;
   }
   
   .btn_laws_on {
@@ -1648,7 +1648,7 @@ export default {
     line-height: 12px;
     text-align: center;
     color: #FFFFFF;
-    margin: 8px 0px 0px 5px;
+    margin: 7px 0px 0px 5px;
   }
 
   .container_txt {
@@ -1830,7 +1830,7 @@ export default {
     font-size: 13px;
     line-height: 16px;
     color: #FFFFFF;
-    margin: 10px 0px 0px 35px;
+    margin: 8px 0px 0px 35px;
   }
   
   .btn_laws_on {
@@ -1845,7 +1845,7 @@ export default {
     line-height: 12px;
     text-align: center;
     color: #FFFFFF;
-    margin: 8px 0px 0px 5px;
+    margin: 7px 0px 0px 5px;
   }
 
   .container_txt {
