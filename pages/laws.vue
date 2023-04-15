@@ -21,13 +21,81 @@
           </ul>
         </div>
       </div>
+      <div>
+        <p class="container_txt">Физические законы</p>
+        <div class="navigation_all_container">
+            <div class="searcher_rectangle">
+                <ul class="list">
+                    <li>
+                        <p class="searcher_txt">Найди закон !</p>
+                        <div class="search_lime_rectangle">
+                            <input class="search" type="search" v-model="search" placeholder="Название закон"/>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="/mgnfr.png" class="search_logo_img">
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <div class="navigation_all_container">
+            <ul class="list">
+                <li class="serch_li" v-for="item in serchHandler" :key="item.number">
+                  <div class="laws_rectanbgle">
+                    <ul class="list">
+                      <li>
+                        <p class="laws_txt">{{ item.LawsName }}</p>
+                      </li>
+                      <li v-if="item.number = item.number">
+                        <button class="btn_laws_on" @click="item.status = !item.status">Посмотреть</button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div v-if="item.status == true">
+                    <p>efjkoiej</p>
+                  </div>
+                </li>
+            </ul>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'InspirePage'
+  data() {
+      return {
+          data: [
+          {
+              number: 1,
+              LawsName: "Третий закон Ньютона",
+              status: false
+          },
+          {
+              number: 2,
+              LawsName: "Второй закон Ньютона",
+              status: false
+          },
+          {
+              number: 3,
+              LawsName: "Первый закон Ньютона",
+              status: false
+          },
+          ],
+          search: "",
+      }
+  },
+  computed: {
+    serchHandler() {
+      return this.data.filter(elem => {
+        return elem.LawsName.toLowerCase().includes(this.search.toLowerCase())
+      })
+    }
+  },
+  components: {
+    AdsYandex: () => import('@/components/AdsYandex'),
+  },
 }
 </script>
 
@@ -46,6 +114,12 @@ export default {
   .list li {
     float: left;
   }
+
+  .backround {
+    background-color: #0D1117;
+    width: 1920px;
+    height: 2000px;
+  }
   
   .navigation_header {
     padding: 12px 0px 0px 500px;
@@ -56,7 +130,7 @@ export default {
   }
   
   .header_txt {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -67,7 +141,7 @@ export default {
   }
   
   .header_txt:hover {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -77,7 +151,7 @@ export default {
   }
   
   .header_txt_two {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -88,7 +162,7 @@ export default {
   }
   
   .header_txt_two:hover {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -101,10 +175,114 @@ export default {
     width: 116.5px;
     height: 77px;
   }
+
+  .searcher_rectangle {
+    width: 1300px;
+    height: 322px;
+    background: #5861C7;
+    border-radius: 35px;
+  }
+
+  .searcher_txt {
+    width: 426px;
+    height: 74px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+    margin: 50px 0px 0px 283px;
+  }
+
+  input {
+    outline: none;
+  }
+
+  .search_lime_rectangle {
+    width: 878px;
+    height: 107px;
+    background: #FFFFFF;
+    border-radius: 19px;
+    margin: 41px 0px 0px 56px;
+  }
+
+  .search {
+    width: 788px;
+    height: 74px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 74px;
+    color: #626262;
+    margin: 15px 0px 0px 45px;
+  }
+
+  .search_logo_img {
+    width: 240px;
+    height: 222px;
+    margin: 50px 0px 0px 70px;
+  }
+
+  .navigation_all_container {
+    padding: 50px 0px 0px 310px;
+  }
+
+  .container_txt {
+    width: 532px;
+    height: 59px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+    margin: 110px 0px 0px 694px;
+  }
+
+  .laws_rectanbgle {
+    width: 1301px;
+    height: 157px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 2px solid #323A99;
+    backdrop-filter: blur(40px);
+    border-radius: 20px;
+  }
+
+  .serch_li {
+    margin: 0px 0px 35px 0px;
+  }
+
+  .laws_txt {
+    width: 729px;
+    height: 59px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+    margin: 49px 0px 0px 70px;
+  }
   
+  .btn_laws_on {
+    width: 401px;
+    height: 69px;
+    background: #5861C7;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 44px 0px 0px 30px;
+  }
   /********************************************/
   
-  @media (min-width: 300px) and (max-width: 320px) {
+@media (min-width: 300px) and (max-width: 320px) {
 * {
     margin: 0px;
     padding: 0px;
@@ -174,10 +352,138 @@ export default {
     color: #A700FF;
     margin: 5px 0px 0px 50px;
   }
+
+  .backround {
+    background: #0D1117;
+    width: 320px;
+    height: 3000px;
+  }
+
+  .searcher_rectangle {
+    width: 280px;
+    height: 81px;
+    background: #5861C7;
+    border-radius: 6px;
+  }
+
+  .searcher_txt {
+    width: 92px;
+    height: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin: 13px 0px 0px 68px;
+  }
+
+  .search_lime_rectangle {
+    width: 186px;
+    height: 31px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 10px 0px 0px 15px;
+  }
+
+  .search_logo_img {
+    width: 52px;
+    height: 48px;
+    margin: 17px 0px 0px 12px;
+  }
+
+  .navigation_all_container {
+    padding: 12px 0px 0px 20px;
+  }
+
+  .search {
+    width: 156px;
+    height: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(175, 175, 175, 0.58);
+    margin: 8px 0px 0px 15px;
+  }
+
+  input {
+    outline: none;
+  }
+
+  input::placeholder {
+    color: rgba(175, 175, 175, 0.58);
+  }
+
+  .serch_li {
+    margin: 0px 0px 10px 0px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    border: none;
+  }
+
+  .laws_rectanbgle {
+    width: 280px;
+    height: 35px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 1px solid #323A99;
+    backdrop-filter: blur(40px);
+    border-radius: 5px;
+  }
+
+  .serch_li {
+    margin: 0px 0px 10px 0px;
+  }
+
+  .laws_txt {
+    width: 171px;
+    height: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 10px;
+  }
+  
+  .btn_laws_on {
+    width: 84px;
+    height: 15px;
+    background: #5861C7;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 5px;
+  }
+
+  .container_txt {
+    width: 134px;
+    height: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px 0px 0px 93px;
+  }
 }
   /*****************************/
   
-  @media (min-width: 321px) and (max-width: 340px) {
+@media (min-width: 321px) and (max-width: 340px) {
     * {
     margin: 0px;
     padding: 0px;
@@ -246,6 +552,130 @@ export default {
     line-height: 11px; 
     color: #A700FF;
     margin: 5px 0px 0px 50px;
+  }
+
+  .backround {
+    background: #0D1117;
+    width: 340px;
+    height: 3000px;
+  }
+
+  .searcher_rectangle {
+    width: 300px;
+    height: 81px;
+    background: #5861C7;
+    border-radius: 6px;
+  }
+
+  .searcher_txt {
+    width: 92px;
+    height: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin: 13px 0px 0px 78px;
+  }
+
+  .search_lime_rectangle {
+    width: 186px;
+    height: 31px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 10px 0px 0px 25px;
+  }
+
+  .search_logo_img {
+    width: 52px;
+    height: 48px;
+    margin: 17px 0px 0px 12px;
+  }
+
+  .navigation_all_container {
+    padding: 12px 0px 0px 20px;
+  }
+
+  .search {
+    width: 156px;
+    height: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(175, 175, 175, 0.58);
+    margin: 8px 0px 0px 15px;
+  }
+
+  input {
+    outline: none;
+  }
+
+  input::placeholder {
+    color: rgba(175, 175, 175, 0.58);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    border: none;
+  }
+
+  .laws_rectanbgle {
+    width: 300px;
+    height: 35px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 1px solid #323A99;
+    backdrop-filter: blur(40px);
+    border-radius: 5px;
+  }
+
+  .serch_li {
+    margin: 0px 0px 10px 0px;
+  }
+
+  .laws_txt {
+    width: 191px;
+    height: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 10px;
+  }
+  
+  .btn_laws_on {
+    width: 84px;
+    height: 15px;
+    background: #5861C7;
+    border-radius: 2px;
+    font-family: 'Montserrat'k, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 5px;
+  }
+
+  .container_txt {
+    width: 134px;
+    height: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px 0px 0px 103px;
   }
 }
   /*****************************/
@@ -320,6 +750,130 @@ export default {
     color: #A700FF;
     margin: 4px 0px 0px 50px;
   }
+
+  .backround {
+    background: #0D1117;
+    width: 360px;
+    height: 3000px;
+  }
+
+  .searcher_rectangle {
+    width: 320px;
+    height: 81px;
+    background: #5861C7;
+    border-radius: 6px;
+  }
+
+  .searcher_txt {
+    width: 99px;
+    height: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 13px 0px 0px 83px;
+  }
+
+  .search_lime_rectangle {
+    width: 203px;
+    height: 31px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 9px 0px 0px 25px;
+  }
+
+  .search_logo_img {
+    width: 52px;
+    height: 48px;
+    margin: 17px 0px 0px 15px;
+  }
+
+  .navigation_all_container {
+    padding: 12px 0px 0px 20px;
+  }
+
+  .search {
+    width: 171px;
+    height: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(175, 175, 175, 0.58);
+    margin: 8px 0px 0px 16px;
+  }
+
+  input {
+    outline: none;
+  }
+
+  input::placeholder {
+    color: rgba(175, 175, 175, 0.58);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    border: none;
+  }
+
+  .laws_rectanbgle {
+    width: 320px;
+    height: 35px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 1px solid #323A99;
+    backdrop-filter: blur(40px);
+    border-radius: 5px;
+  }
+
+  .serch_li {
+    margin: 0px 0px 10px 0px;
+  }
+
+  .laws_txt {
+    width: 191px;
+    height: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+  }
+  
+  .btn_laws_on {
+    width: 84px;
+    height: 15px;
+    background: #5861C7;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 5px;
+  }
+
+  .container_txt {
+    width: 155px;
+    height: 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 20px 0px 0px 102px;
+  }
 }
   /*****************************/
   
@@ -392,6 +946,130 @@ export default {
     line-height: 13px;
     color: #A700FF;
     margin: 4px 0px 0px 39px;
+  }
+
+  .backround {
+    background: #0D1117;
+    width: 380px;
+    height: 3000px;
+  }
+
+  .searcher_rectangle {
+    width: 340px;
+    height: 81px;
+    background: #5861C7;
+    border-radius: 6px;
+  }
+
+  .searcher_txt {
+    width: 107px;
+    height: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 13px 0px 0px 85px;
+  }
+
+  .search_lime_rectangle {
+    width: 213px;
+    height: 31px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 8px 0px 0px 25px;
+  }
+
+  .search_logo_img {
+    width: 61px;
+    height: 53px;
+    margin: 14px 0px 0px 16px;
+  }
+
+  .navigation_all_container {
+    padding: 12px 0px 0px 20px;
+  }
+
+  .search {
+    width: 183px;
+    height: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(175, 175, 175, 0.58);
+    margin: 8px 0px 0px 15px;
+  }
+
+  input {
+    outline: none;
+  }
+
+  input::placeholder {
+    color: rgba(175, 175, 175, 0.58);
+  }
+
+  .serch_li {
+    margin: 0px 0px 10px 0px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    border: none;
+  }
+
+  .laws_rectanbgle {
+    width: 340px;
+    height: 35px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 1px solid #323A99;
+    backdrop-filter: blur(40px);
+    border-radius: 5px;
+  }
+
+  .laws_txt {
+    width: 201px;
+    height: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 25px;
+  }
+  
+  .btn_laws_on {
+    width: 84px;
+    height: 15px;
+    background: #5861C7;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 5px;
+  }
+
+  .container_txt {
+    width: 155px;
+    height: 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px 0px 0px 112px;
   }
 }
   /*****************************/
@@ -466,10 +1144,134 @@ export default {
     color: #A700FF;
     margin: 3px 0px 0px 47px;
   }
+
+  .backround {
+    background: #0D1117;
+    width: 400px;
+    height: 3000px;
+  }
+
+  .searcher_rectangle {
+    width: 360px;
+    height: 81px;
+    background: #5861C7;
+    border-radius: 6px;
+  }
+
+  .searcher_txt {
+    width: 107px;
+    height: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 13px 0px 0px 95px;
+  }
+
+  .search_lime_rectangle {
+    width: 233px;
+    height: 31px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 8px 0px 0px 25px;
+  }
+
+  .search_logo_img {
+    width: 62px;
+    height: 58px;
+    margin: 12px 0px 0px 15px;
+  }
+
+  .navigation_all_container {
+    padding: 12px 0px 0px 20px;
+  }
+
+  .search {
+    width: 197px;
+    height: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(175, 175, 175, 0.58);
+    margin: 8px 0px 0px 18px;
+  }
+
+  input {
+    outline: none;
+  }
+
+  input::placeholder {
+    color: rgba(175, 175, 175, 0.58);
+  }
+
+  .serch_li {
+    margin: 0px 0px 10px 0px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    border: none;
+  }
+
+  .laws_rectanbgle {
+    width: 360px;
+    height: 35px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 1px solid #323A99;
+    backdrop-filter: blur(40px);
+    border-radius: 5px;
+  }
+
+  .laws_txt {
+    width: 201px;
+    height: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 35px;
+  }
+  
+  .btn_laws_on {
+    width: 84px;
+    height: 15px;
+    background: #5861C7;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 5px;
+  }
+
+  .container_txt {
+    width: 155px;
+    height: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px 0px 0px 122px;
+  }
 }
   /*****************************/
   
-  @media (min-width: 401px) and (max-width: 420px) {
+ @media (min-width: 401px) and (max-width: 420px) {
   * {
     margin: 0px;
     padding: 0px;
@@ -526,7 +1328,7 @@ export default {
     font-size: 12px;
     line-height: 15px;
     color: #FFFFFF;
-    margin: 3px 0px 0px 67px;
+    margin: 3px 0px 0px 47px;
     transition: 0.5s;
   }
   
@@ -537,7 +1339,131 @@ export default {
     font-size: 12px;
     line-height: 15px;
     color: #A700FF;
-    margin: 3px 0px 0px 67px;
+    margin: 3px 0px 0px 47px;
+  }
+
+  .backround {
+    background: #0D1117;
+    width: 420px;
+    height: 3000px;
+  }
+
+  .searcher_rectangle {
+    width: 380px;
+    height: 81px;
+    background: #5861C7;
+    border-radius: 6px;
+  }
+
+  .searcher_txt {
+    width: 114px;
+    height: 17px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 13px 0px 0px 99px;
+  }
+
+  .search_lime_rectangle {
+    width: 248px;
+    height: 31px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 7px 0px 0px 25px;
+  }
+
+  .search_logo_img {
+    width: 62px;
+    height: 58px;
+    margin: 12px 0px 0px 20px;
+  }
+
+  .navigation_all_container {
+    padding: 12px 0px 0px 20px;
+  }
+
+  .search {
+    width: 210px;
+    height: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(175, 175, 175, 0.58);
+    margin: 8px 0px 0px 19px;
+  }
+
+  input {
+    outline: none;
+  }
+
+  input::placeholder {
+    color: rgba(175, 175, 175, 0.58);
+  }
+
+  .serch_li {
+    margin: 0px 0px 10px 0px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    border: none;
+  }
+
+  .laws_rectanbgle {
+    width: 380px;
+    height: 35px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 1px solid #323A99;
+    backdrop-filter: blur(40px);
+    border-radius: 5px;
+  }
+
+  .laws_txt {
+    width: 225px;
+    height: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 35px;
+  }
+  
+  .btn_laws_on {
+    width: 100px;
+    height: 19px;
+    background: #5861C7;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 8px 0px 0px 5px;
+  }
+
+  .container_txt {
+    width: 155px;
+    height: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px 0px 0px 133px;
   }
 }
   /*****************************/
@@ -613,6 +1539,130 @@ export default {
     color: #A700FF;
     margin: 5px 0px 0px 77px;
   }
+
+  .backround {
+    background: #0D1117;
+    width: 440px;
+    height: 3000px;
+  }
+
+  .searcher_rectangle {
+    width: 400px;
+    height: 81px;
+    background: #5861C7;
+    border-radius: 6px;
+  }
+
+  .searcher_txt {
+    width: 122px;
+    height: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 13px 0px 0px 106px;
+  }
+
+  .search_lime_rectangle {
+    width: 268px;
+    height: 31px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 6px 0px 0px 25px;
+  }
+
+  .search_logo_img {
+    width: 62px;
+    height: 58px;
+    margin: 12px 0px 0px 20px;
+  }
+
+  .navigation_all_container {
+    padding: 12px 0px 0px 20px;
+  }
+
+  .search {
+    width: 226px;
+    height: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(175, 175, 175, 0.58);
+    margin: 8px 0px 0px 21px;
+  }
+
+  input {
+    outline: none;
+  }
+
+  input::placeholder {
+    color: rgba(175, 175, 175, 0.58);
+  }
+
+  .serch_li {
+    margin: 0px 0px 10px 0px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    border: none;
+  }
+
+  .laws_rectanbgle {
+    width: 400px;
+    height: 35px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 1px solid #323A99;
+    backdrop-filter: blur(40px);
+    border-radius: 5px;
+  }
+
+  .laws_txt {
+    width: 225px;
+    height: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 35px;
+  }
+  
+  .btn_laws_on {
+    width: 100px;
+    height: 19px;
+    background: #5861C7;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 8px 0px 0px 5px;
+  }
+
+  .container_txt {
+    width: 167px;
+    height: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px 0px 0px 138px;
+  }
 }
   /*****************************/
   
@@ -686,6 +1736,129 @@ export default {
     line-height: 15px;
     color: #A700FF;
     margin: 5px 0px 0px 97px;
+  }
+
+  .backround {
+    background: #0D1117;
+    width: 460px;
+    height: 3000px;
+  }
+
+  .searcher_rectangle {
+    width: 420px;
+    height: 81px;
+    background: #5861C7;
+    border-radius: 6px;
+  }
+
+  .searcher_txt {
+    width: 122px;
+    height: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 13px 0px 0px 116px;
+  }
+
+  .search_lime_rectangle {
+    width: 268px;
+    height: 31px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 6px 0px 0px 35px;
+  }
+
+  .search_logo_img {
+    width: 62px;
+    height: 58px;
+    margin: 12px 0px 0px 20px;
+  }
+
+  .navigation_all_container {
+    padding: 12px 0px 0px 20px;
+  }
+
+  .search {
+    width: 210px;
+    height: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(175, 175, 175, 0.58);
+    margin: 8px 0px 0px 21px;
+  }
+
+  input {
+    outline: none;
+  }
+
+  input::placeholder {
+    color: rgba(175, 175, 175, 0.58);
+  }
+
+  .serch_li {
+    margin: 0px 0px 10px 0px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    border: none;
+  }
+
+  .laws_rectanbgle {
+    width: 420px;
+    height: 35px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 1px solid #323A99;
+    backdrop-filter: blur(40px);
+    border-radius: 5px;
+  }
+
+  .laws_txt {
+    width: 249px;
+    height: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 35px;
+  }
+  
+  .btn_laws_on {
+    width: 96px;
+    height: 19px;
+    background: #5861C7;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 8px 0px 0px 5px;
+  }
+
+  .container_txt {
+    width: 167px;
+    height: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px 0px 0px 147px;
   }
 }
 

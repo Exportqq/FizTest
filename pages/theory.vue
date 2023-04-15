@@ -24,11 +24,9 @@
                 </div>
                 <div>
                     <p class="container_txt">Теоритический материал</p>
-                    <div class="show-on-desktop">
-                      <AdsYandex :id="'R-A-2303256-1'"/>
-                    </div>
                     <div>
-                      <AdsYandex :id="'R-A-2303256-2'"/>
+                      <AdsYandex class="show-on-mobile" :id="'R-A-2303256-1'"/>
+                      <AdsYandex class="show-on-desktop" :id="'R-A-2303256-2'"/>
                     </div>
                     <div class="navigation_all_container">
                         <div class="searcher_rectangle">
@@ -43,7 +41,7 @@
                                     <img src="/mgnfr.png" class="search_logo_img">
                                 </li>
                             </ul>
-                        </div>
+                      </div>
                     </div>
                     <div class="navigation_all_container">
                         <ul class="list">
@@ -289,6 +287,7 @@ button {
 }
 
 /********************************************/
+
 @media (min-width: 761px) {
   .show-on-mobile { display: none !important; }
 }
