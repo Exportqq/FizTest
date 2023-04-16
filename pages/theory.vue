@@ -72,13 +72,28 @@
             },
             {
                 number: 2,
-                TheoryName: "Внешний и внутренний фотоэффект",
+                TheoryName: "Квантовые постулаты Бора. Модель атома водорода по Бору",
                 page: "/theory-2"
+            },
+            {
+                number: 4,
+                TheoryName: "Химическое действие света",
+                page: "/theory-3"
             },
             {
                 number: 4,
                 TheoryName: "Строение атома. Опыты Резерфорда",
                 page: "/theory-4"
+            },
+            {
+                number: 5,
+                TheoryName: "",
+                page: "/theory-5"
+            },
+            {
+                number: 6,
+                TheoryName: "",
+                page: "/theory-6"
             },
             ],
             search: "",
