@@ -1,4 +1,4 @@
-<template>
+<template style="overflow-x: hidden;">
   <div>
     <div class="backround">
       <div class="header">
@@ -23,9 +23,9 @@
       </div>
       <div>
         <p class="container_txt">Физические законы</p>
-        <div>
-          <AdsYandex class="show-on-mobile" :id="'R-A-2303256-7'"/>
-          <AdsYandex class="show-on-desktop" :id="'R-A-2303256-8'"/>
+        <div class="naviagtion_ads">
+          <AdsYandex :refresh="true" class="show-on-mobile" :id="'R-A-2303256-7'"/>
+          <AdsYandex :refresh="true" class="show-on-desktop" :id="'R-A-2303256-8'"/>
         </div>
         <div class="navigation_all_container">
             <div class="searcher_rectangle">
@@ -242,7 +242,11 @@ export default {
     font-size: 48px;
     line-height: 59px;
     color: #FFFFFF;
-    margin: 110px 0px 50px 694px;
+    margin: 110px 0px 0px 694px;
+  }
+
+  .navigation_ads {
+    margin: 50px 0px 0px 0px;
   }
 
   .laws_rectanbgle {
@@ -490,7 +494,11 @@ export default {
     line-height: 15px;
     text-align: center;
     color: #FFFFFF;
-    margin: 20px 0px 12px 93px;
+    margin: 20px 0px 0px 93px;
+  }
+
+  .navigation_ads {
+    margin: 12px 0px 0px 0px;
   }
 }
   /*****************************/
@@ -687,7 +695,11 @@ export default {
     line-height: 15px;
     text-align: center;
     color: #FFFFFF;
-    margin: 20px 0px 12px 103px;
+    margin: 20px 0px 0px 103px;
+  }
+
+  .navigation_ads {
+    margin: 12px 0px 0px 0px;
   }
 }
   /*****************************/
@@ -884,7 +896,11 @@ export default {
     line-height: 17px;
     color: #FFFFFF;
     text-align: center;
-    margin: 20px 0px 12px 102px;
+    margin: 20px 0px 0px 102px;
+  }
+
+  .navigation_ads {
+    margin: 12px 0px 0px 0px;
   }
 }
   /*****************************/
@@ -1081,7 +1097,11 @@ export default {
     line-height: 17px;
     text-align: center;
     color: #FFFFFF;
-    margin: 20px 0px 12px 112px;
+    margin: 20px 0px 0px 112px;
+  }
+
+  .navigation_ads {
+    margin: 12px 0px 0px 0px;
   }
 }
   /*****************************/
@@ -1278,7 +1298,11 @@ export default {
     line-height: 17px;
     text-align: center;
     color: #FFFFFF;
-    margin: 20px 0px 12px 122px;
+    margin: 20px 0px 0px 122px;
+  }
+
+  .navigation_ads {
+    margin: 12px 0px 0px 0px;
   }
 }
   /*****************************/
@@ -1475,7 +1499,11 @@ export default {
     line-height: 17px;
     text-align: center;
     color: #FFFFFF;
-    margin: 20px 0px 12px 133px;
+    margin: 20px 0px 0px 133px;
+  }
+
+  .navigation_ads {
+    margin: 12px 0px 0px 0px;
   }
 }
   /*****************************/
@@ -1673,7 +1701,11 @@ export default {
     line-height: 18px;
     text-align: center;
     color: #FFFFFF;
-    margin: 20px 0px 12px 138px;
+    margin: 20px 0px 0px 138px;
+  }
+
+  .navigation_ads {
+    margin: 12px 0px 0px 0px;
   }
 }
   /*****************************/
@@ -1870,7 +1902,11 @@ export default {
     line-height: 18px;
     text-align: center;
     color: #FFFFFF;
-    margin: 20px 0px 12px 147px;
+    margin: 20px 0px 0px 147px;
+  }
+
+  .navigation_ads {
+    margin: 12px 0px 0px 0px;
   }
 }
 
