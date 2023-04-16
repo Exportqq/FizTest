@@ -104,9 +104,9 @@
 }
 
 .header {
-    width: 1920px;
-    height: 100px;
-    background: rgba(100, 100, 100, 0.42);
+  width: 1920px;
+  height: 100px;
+  background: rgba(100, 100, 100, 0.42);
 }
 
 .list li {
