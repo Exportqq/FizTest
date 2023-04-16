@@ -219,7 +219,7 @@ export default {
     font-weight: 500;
     font-size: 64px;
     line-height: 74px;
-    color: #626262;
+    color:rgba(175, 175, 175, 0.58);
     margin: 15px 0px 0px 45px;
   }
 
