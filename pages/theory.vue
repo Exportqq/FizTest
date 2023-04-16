@@ -14,7 +14,7 @@
                         <button onclick="window.location.href='/laws';" class="header_txt_two">Законы</button>
                     </li>
                     <li>
-                        <button class="header_txt">Теория</button>
+                        <button style="color: #A700FF;" class="header_txt">Теория</button>
                     </li>
                     <li>
                         <button onclick="window.location.href='/laboratory';" class="header_txt">Лабораторные работы</button>
@@ -67,7 +67,7 @@
             data: [
             {
                 number: 1,
-                TheoryName: "Применение и практическое значение закона Джоуля - Ленца",
+                TheoryName: "Применение и практическое значение закона Джоуля – Ленца",
                 page: "/theory-1"
             },
             {

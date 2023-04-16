@@ -23,6 +23,10 @@
       </div>
       <div>
         <p class="container_txt">Физические законы</p>
+        <div>
+          <AdsYandex class="show-on-mobile" :id="'R-A-2303256-7'"/>
+          <AdsYandex class="show-on-desktop" :id="'R-A-2303256-8'"/>
+        </div>
         <div class="navigation_all_container">
             <div class="searcher_rectangle">
                 <ul class="list">
@@ -52,7 +56,7 @@
                     </ul>
                   </div>
                   <div v-if="item.status == true">
-                    <p>efjkoiej</p>
+                    <p></p>
                   </div>
                 </li>
             </ul>
@@ -281,7 +285,15 @@ export default {
     margin: 44px 0px 0px 30px;
   }
   /********************************************/
-  
+
+@media (min-width: 761px) {
+  .show-on-mobile { display: none !important; }
+}
+
+@media (max-width: 760px) {
+  .show-on-desktop { display: none !important; }
+}
+
 @media (min-width: 300px) and (max-width: 320px) {
 * {
     margin: 0px;
