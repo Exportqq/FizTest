@@ -242,7 +242,7 @@ export default {
     font-size: 48px;
     line-height: 59px;
     color: #FFFFFF;
-    margin: 110px 0px 0px 694px;
+    margin: 110px 0px 50px 694px;
   }
 
   .laws_rectanbgle {
@@ -490,7 +490,7 @@ export default {
     line-height: 15px;
     text-align: center;
     color: #FFFFFF;
-    margin: 20px 0px 0px 93px;
+    margin: 20px 0px 12px 93px;
   }
 }
   /*****************************/
@@ -687,7 +687,7 @@ export default {
     line-height: 15px;
     text-align: center;
     color: #FFFFFF;
-    margin: 20px 0px 0px 103px;
+    margin: 20px 0px 12px 103px;
   }
 }
   /*****************************/
@@ -884,7 +884,7 @@ export default {
     line-height: 17px;
     color: #FFFFFF;
     text-align: center;
-    margin: 20px 0px 0px 102px;
+    margin: 20px 0px 12px 102px;
   }
 }
   /*****************************/
@@ -1081,7 +1081,7 @@ export default {
     line-height: 17px;
     text-align: center;
     color: #FFFFFF;
-    margin: 20px 0px 0px 112px;
+    margin: 20px 0px 12px 112px;
   }
 }
   /*****************************/
@@ -1278,7 +1278,7 @@ export default {
     line-height: 17px;
     text-align: center;
     color: #FFFFFF;
-    margin: 20px 0px 0px 122px;
+    margin: 20px 0px 12px 122px;
   }
 }
   /*****************************/
@@ -1475,7 +1475,7 @@ export default {
     line-height: 17px;
     text-align: center;
     color: #FFFFFF;
-    margin: 20px 0px 0px 133px;
+    margin: 20px 0px 12px 133px;
   }
 }
   /*****************************/
@@ -1673,7 +1673,7 @@ export default {
     line-height: 18px;
     text-align: center;
     color: #FFFFFF;
-    margin: 20px 0px 0px 138px;
+    margin: 20px 0px 12px 138px;
   }
 }
   /*****************************/
@@ -1870,7 +1870,7 @@ export default {
     line-height: 18px;
     text-align: center;
     color: #FFFFFF;
-    margin: 20px 0px 0px 147px;
+    margin: 20px 0px 12px 147px;
   }
 }
 

@@ -183,7 +183,7 @@ ul li {
     font-size: 48px;
     line-height: 59px;
     color: #FFFFFF;
-    margin: 110px 0px 0px 624px;
+    margin: 110px 0px 50px 624px;
 }
 
 .searcher_rectangle {
@@ -382,7 +382,7 @@ button {
     font-size: 12px;
     line-height: 15px;
     color: #FFFFFF;
-    margin: 20px 0px 0px 76px;
+    margin: 20px 0px 12px 76px;
   }
 
   .searcher_rectangle {
@@ -573,7 +573,7 @@ button {
     font-size: 12px;
     line-height: 15px;
     color: #FFFFFF;
-    margin: 20px 0px 0px 86px;
+    margin: 20px 0px 12px 86px;
   }
 
   .searcher_rectangle {
@@ -764,7 +764,7 @@ button {
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
-    margin: 20px 0px 0px 82px;
+    margin: 20px 0px 12px 82px;
   }
 
   .searcher_rectangle {
@@ -955,7 +955,7 @@ button {
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
-    margin: 20px 0px 0px 92px;
+    margin: 20px 0px 12px 92px;
   }
 
   .searcher_rectangle {
@@ -1146,7 +1146,7 @@ button {
     font-size: 15px;
     line-height: 18px;
     color: #FFFFFF;
-    margin: 20px 0px 0px 95px;
+    margin: 20px 0px 12px 95px;
   }
 
   .searcher_rectangle {
@@ -1407,7 +1407,7 @@ button {
     font-size: 15px;
     line-height: 18px;
     color: #FFFFFF;
-    margin: 20px 0px 0px 105px;
+    margin: 20px 0px 12px 105px;
   }
 
   .searcher_rectangle {
@@ -1599,7 +1599,7 @@ button {
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
-    margin: 20px 0px 0px 108px;
+    margin: 20px 0px 12px 108px;
   }
 
   .searcher_rectangle {
@@ -1791,7 +1791,7 @@ button {
     font-size: 17px;
     line-height: 21px;
     color: #FFFFFF;
-    margin: 20px 0px 0px 111px;
+    margin: 20px 0px 12px 111px;
   }
 
   .searcher_rectangle {
