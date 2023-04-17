@@ -1,8 +1,17 @@
 import colors from 'vuetify/es5/util/colors'
+require("dotenv").config();
 
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  env: {
+    GA_ID: process.env.GA_ID,
+  },
+  modules: [
+    "@nuxtjs/dotenv",
+  ],
+  plugins: [
+    { src: "~/plugins/google-analytics.js", ssr: false },
+  ],
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -28,30 +37,12 @@ export default {
   css: [
   ],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
-
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxtjs/google-analytics',
     '@nuxtjs/vuetify',
-  ],
-
-  googleAnalytics: {
-    id: process.env.G-MV8BPTEM8M, // Use as fallback if no runtime config is provided
-  },
-  publicRuntimeConfig: {
-    googleAnalytics: {
-      id: process.env.G-MV8BPTEM8M
-    }
-  },
-
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
   ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
