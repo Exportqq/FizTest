@@ -21,6 +21,9 @@
             </ul>
           </div>
         </div>
+        <div>
+          <img class="nolab_img" src="bro.svg">
+        </div>
       </div>
     </div>
   </template>
@@ -101,6 +104,18 @@
     width: 116.5px;
     height: 77px;
   }
+
+  .nolab_img {
+    width: 1000px;
+    height: 1110px;
+    margin: 40px 0px 0px 460px;
+  }
+
+  .backround {
+    height: 2941px;
+    width: 1920px;
+    background: #0D1117;
+}
   
   /********************************************/
   
@@ -174,6 +189,18 @@
     color: #A700FF;
     margin: 5px 0px 0px 50px;
   }
+
+  .nolab_img {
+    width: 320px;
+    height: 385px;
+    margin: 10px 0px 0px 0px;
+  }
+
+  .backround {
+    height: 1000px;
+    width: 320px;
+    background: #0D1117;
+}
 }
   /*****************************/
   
@@ -247,6 +274,18 @@
     color: #A700FF;
     margin: 5px 0px 0px 50px;
   }
+
+  .nolab_img {
+    width: 320px;
+    height: 385px;
+    margin: 10px 0px 0px 10px;
+  }
+
+  .backround {
+    height: 1000px;
+    width: 340px;
+    background: #0D1117;
+}
 }
   /*****************************/
   
@@ -320,6 +359,18 @@
     color: #A700FF;
     margin: 4px 0px 0px 50px;
   }
+
+  .nolab_img {
+    width: 320px;
+    height: 385px;
+    margin: 10px 0px 0px 20px;
+  }
+
+  .backround {
+    height: 1000px;
+    width: 360px;
+    background: #0D1117;
+}
 }
   /*****************************/
   
@@ -393,6 +444,18 @@
     color: #A700FF;
     margin: 4px 0px 0px 39px;
   }
+
+  .nolab_img {
+    width: 320px;
+    height: 385px;
+    margin: 10px 0px 0px 30px;
+  }
+
+  .backround {
+    height: 1000px;
+    width: 380px;
+    background: #0D1117;
+}
 }
   /*****************************/
   
@@ -466,6 +529,18 @@
     color: #A700FF;
     margin: 3px 0px 0px 47px;
   }
+
+  .nolab_img {
+    width: 320px;
+    height: 385px;
+    margin: 10px 0px 0px 40px;
+  }
+
+  .backround {
+    height: 1000px;
+    width: 400px;
+    background: #0D1117;
+}
 }
   /*****************************/
   
@@ -539,6 +614,18 @@
     color: #A700FF;
     margin: 3px 0px 0px 67px;
   }
+
+  .nolab_img {
+    width: 320px;
+    height: 385px;
+    margin: 10px 0px 0px 50px;
+  }
+
+  .backround {
+    height: 1000px;
+    width: 420px;
+    background: #0D1117;
+}
 }
   /*****************************/
   
@@ -613,6 +700,18 @@
     color: #A700FF;
     margin: 5px 0px 0px 77px;
   }
+
+  .nolab_img {
+    width: 320px;
+    height: 385px;
+    margin: 10px 0px 0px 60px;
+  }
+
+  .backround {
+    height: 1000px;
+    width: 440px;
+    background: #0D1117;
+}
 }
   /*****************************/
   
@@ -687,6 +786,18 @@
     color: #A700FF;
     margin: 5px 0px 0px 97px;
   }
+
+  .nolab_img {
+    width: 320px;
+    height: 385px;
+    margin: 10px 0px 0px 70px;
+  }
+
+  .backround {
+    height: 1000px;
+    width: 460px;
+    background: #0D1117;
+}
 }
 </style>
   
