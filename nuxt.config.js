@@ -37,9 +37,18 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/vuetify
+    '@nuxtjs/google-analytics',
     '@nuxtjs/vuetify',
   ],
+
+  googleAnalytics: {
+    id: process.env.G-MV8BPTEM8M, // Use as fallback if no runtime config is provided
+  },
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.G-MV8BPTEM8M
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

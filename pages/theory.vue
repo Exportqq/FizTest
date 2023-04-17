@@ -85,16 +85,6 @@
                 TheoryName: "Строение атома. Опыты Резерфорда",
                 page: "/theory-4"
             },
-            {
-                number: 5,
-                TheoryName: "",
-                page: "/theory-5"
-            },
-            {
-                number: 6,
-                TheoryName: "",
-                page: "/theory-6"
-            },
             ],
             search: "",
         }
