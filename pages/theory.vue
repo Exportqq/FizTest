@@ -17,7 +17,7 @@
                         <button style="color: #A700FF;" class="header_txt">Теория</button>
                     </li>
                     <li>
-                        <button onclick="window.location.href='/laboratory';" class="header_txt">Лабораторные работы</button>
+                      <button onclick="window.location.href='/tasks';" class="header_txt">Задания</button>
                     </li>
                     </ul>
                 </div>

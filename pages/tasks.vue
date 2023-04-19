@@ -10,30 +10,30 @@
               </button>
             </li>
             <li>
-              <button style="color: #A700FF;" class="header_txt_two">Законы</button>
+              <button onclick="window.location.href='/laws'" class="header_txt_two">Законы</button>
             </li>
             <li>
-              <button onclick="window.location.href='/theory';" class="header_txt">Теория</button>
+              <button onclick="window.location.href='/theory'" class="header_txt">Теория</button>
             </li>
             <li>
-              <button onclick="window.location.href='/tasks';" class="header_txt">Задания</button>
+              <button style="color: #A700FF" class="header_txt">Задания</button>
             </li>
           </ul>
         </div>
       </div>
       <div>
-        <p class="container_txt">Физические законы</p>
+        <p class="container_txt">Задачи</p>
         <div class="naviagtion_ads">
-          <AdsYandex :refresh="true" class="show-on-mobile" :id="'R-A-2303256-1'"/>
-          <AdsYandex :refresh="true" class="show-on-desktop" :id="'R-A-2303256-2'"/>
+          <AdsYandex :refresh="true" class="show-on-mobile" :id="'R-A-2303256-7'"/>
+          <AdsYandex :refresh="true" class="show-on-desktop" :id="'R-A-2303256-8'"/>
         </div>
         <div class="navigation_all_container">
             <div class="searcher_rectangle">
                 <ul class="list">
                     <li>
-                        <p class="searcher_txt">Найди закон !</p>
+                        <p class="searcher_txt">Найди задачу !</p>
                         <div class="search_lime_rectangle">
-                            <input class="search" type="search" v-model="search" placeholder="Название закон"/>
+                            <input class="search" type="search" v-model="search" placeholder="Название задачи"/>
                         </div>
                     </li>
                     <li>
@@ -45,19 +45,12 @@
           <div class="navigation_all_container">
             <ul class="list">
                 <li class="serch_li" v-for="item in serchHandler" :key="item.number">
-                  <div class="laws_rectanbgle">
-                    <ul class="list">
-                      <li>
-                        <p class="laws_txt">{{ item.LawsName }}</p>
-                      </li>
-                      <li v-if="item.number = item.number">
-                        <button class="btn_laws_on" @click="item.status = !item.status">Посмотреть</button>
-                      </li>
-                    </ul>
-                  </div>
-                  <div v-if="item.status == true">
-                    <p></p>
-                  </div>
+                  <a v-bind:href="item.page">
+                    <button class="task_btn">
+                      <p class="task_name">{{ item.TaskName }}</p>
+                      <p class="task_target"><span style="color: #FFF500;">Цель работы:</span> {{ item.TaskTarget }}</p>
+                    </button>
+                  </a>
                 </li>
             </ul>
         </div>
@@ -73,18 +66,21 @@ export default {
           data: [
           {
               number: 1,
-              LawsName: "Третий закон Ньютона",
-              status: false
+              TaskName: "(вариант 3)",
+              TaskTarget: "Проверка изученного материала",
+              page: "/task-1"
           },
           {
               number: 2,
-              LawsName: "Второй закон Ньютона",
-              status: false
+              TaskName: "(вариант 4)",
+              TaskTarget: "Проверка изученного материала",
+              page: "/task-2"
           },
           {
               number: 3,
-              LawsName: "Первый закон Ньютона",
-              status: false
+              TaskName: "(вариант 13)",
+              TaskTarget: "Проверка изученного материала",
+              page: "/task-3"
           },
           ],
           search: "",
@@ -93,7 +89,7 @@ export default {
   computed: {
     serchHandler() {
       return this.data.filter(elem => {
-        return elem.LawsName.toLowerCase().includes(this.search.toLowerCase())
+        return elem.TaskName.toLowerCase().includes(this.search.toLowerCase())
       })
     }
   },
@@ -188,7 +184,7 @@ export default {
   }
 
   .searcher_txt {
-    width: 426px;
+    width: 458px;
     height: 74px;
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
@@ -229,65 +225,70 @@ export default {
     margin: 50px 0px 0px 70px;
   }
 
+  input::placeholder {
+    color: rgba(175, 175, 175, 0.58);
+  }
+
   .navigation_all_container {
     padding: 50px 0px 0px 310px;
   }
 
   .container_txt {
-    width: 532px;
-    height: 59px;
+    width: 251px;
+    height: 78px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 59px;
     color: #FFFFFF;
-    margin: 110px 0px 0px 694px;
+    margin: 110px 0px 0px 835px;
   }
 
   .navigation_ads {
     margin: 50px 0px 0px 0px;
   }
 
-  .laws_rectanbgle {
-    width: 1301px;
-    height: 157px;
-    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-    border: 2px solid #323A99;
-    backdrop-filter: blur(40px);
-    border-radius: 20px;
-  }
-
   .serch_li {
     margin: 0px 0px 35px 0px;
   }
 
-  .laws_txt {
-    width: 729px;
-    height: 59px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 59px;
-    color: #FFFFFF;
-    margin: 49px 0px 0px 70px;
+  .task_btn {
+    width: 1300px;
+    height: 375px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(40px);
+    border-radius: 59px;
+    border: 2px solid #5861C7;
   }
-  
-  .btn_laws_on {
-    width: 401px;
-    height: 69px;
-    background: #5861C7;
-    border-radius: 8px;
+
+  .task_name {
+    width: 1066px;
+    height: 165px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 40px;
+    line-height: 49px;
     text-align: center;
     color: #FFFFFF;
-    margin: 44px 0px 0px 30px;
+    margin: 45px 0px 0px 117px;
   }
+
+  .task_target {
+    width: 1066px;
+    height: 98px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+    margin: 22px 0px 0px 117px;
+  }
+
+
   /********************************************/
 
 @media (min-width: 761px) {
