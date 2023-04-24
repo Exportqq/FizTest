@@ -66,19 +66,19 @@ export default {
           data: [
           {
               number: 1,
-              TaskName: "(вариант 3)",
+              TaskName: "Волновые и квантовые свойства света (вариант 3)",
               TaskTarget: "Проверка изученного материала",
               page: "/task-1"
           },
           {
               number: 2,
-              TaskName: "(вариант 4)",
+              TaskName: "Волновые и квантовые свойства света (вариант 4)",
               TaskTarget: "Проверка изученного материала",
               page: "/task-2"
           },
           {
               number: 3,
-              TaskName: "(вариант 13)",
+              TaskName: "Волновые и квантовые свойства света (вариант 13)",
               TaskTarget: "Проверка изученного материала",
               page: "/task-3"
           },
@@ -501,6 +501,41 @@ export default {
   .navigation_ads {
     margin: 12px 0px 0px 0px;
   }
+
+  .task_btn {
+    width: 280px;
+    height: 98px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(40px);
+    border-radius: 5px;
+    border: 1px solid #5861C7;
+  }
+
+  .task_name {
+    width: 254px;
+    height: 43px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 13px 0px 0px 13px;
+  }
+
+  .task_target {
+    width: 254px;
+    height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin: 5px 0px 0px 13px;
+  }
 }
   /*****************************/
   
@@ -701,6 +736,41 @@ export default {
 
   .navigation_ads {
     margin: 12px 0px 0px 0px;
+  }
+
+  .task_btn {
+    width: 300px;
+    height: 98px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(40px);
+    border-radius: 5px;
+    border: 1px solid #5861C7;
+  }
+
+  .task_name {
+    width: 274px;
+    height: 43px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 13px 0px 0px 13px;
+  }
+
+  .task_target {
+    width: 274px;
+    height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    margin: 3px 0px 0px 13px;
   }
 }
   /*****************************/
@@ -903,6 +973,41 @@ export default {
   .navigation_ads {
     margin: 12px 0px 0px 0px;
   }
+
+  .task_btn {
+    width: 320px;
+    height: 98px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(40px);
+    border-radius: 5px;
+    border: 1px solid #5861C7;
+  }
+
+  .task_name {
+    width: 294px;
+    height: 43px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 13px 0px 0px 13px;
+  }
+
+  .task_target {
+    width: 294px;
+    height: 26px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    margin: 3px 0px 0px 13px;
+  }
 }
   /*****************************/
   
@@ -1103,6 +1208,41 @@ export default {
 
   .navigation_ads {
     margin: 12px 0px 0px 0px;
+  }
+
+  .task_btn {
+    width: 340px;
+    height: 98px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(40px);
+    border-radius: 5px;
+    border: 1px solid #5861C7;
+  }
+
+  .task_name {
+    width: 314px;
+    height: 43px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 11px 0px 0px 13px;
+  }
+
+  .task_target {
+    width: 314px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 3px 0px 0px 13px;
   }
 }
   /*****************************/
@@ -1305,6 +1445,41 @@ export default {
   .navigation_ads {
     margin: 12px 0px 0px 0px;
   }
+
+  .task_btn {
+    width: 360px;
+    height: 98px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(40px);
+    border-radius: 5px;
+    border: 1px solid #5861C7;
+  }
+
+  .task_name {
+    width: 334px;
+    height: 43px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 11px 0px 0px 13px;
+  }
+
+  .task_target {
+    width: 334px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 3px 0px 0px 13px;
+  }
 }
   /*****************************/
   
@@ -1505,6 +1680,41 @@ export default {
 
   .navigation_ads {
     margin: 12px 0px 0px 0px;
+  }
+
+  .task_btn {
+    width: 380px;
+    height: 98px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(40px);
+    border-radius: 5px;
+    border: 1px solid #5861C7;
+  }
+
+  .task_name {
+    width: 354px;
+    height: 43px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 11px 0px 0px 13px;
+  }
+
+  .task_target {
+    width: 354px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 3px 0px 0px 13px;
   }
 }
   /*****************************/
@@ -1708,6 +1918,41 @@ export default {
   .navigation_ads {
     margin: 12px 0px 0px 0px;
   }
+
+  .task_btn {
+    width: 400px;
+    height: 98px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(40px);
+    border-radius: 5px;
+    border: 1px solid #5861C7;
+  }
+
+  .task_name {
+    width: 354px;
+    height: 43px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 23px;
+  }
+
+  .task_target {
+    width: 374px;
+    height: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 3px 0px 0px 13px;
+  }
 }
   /*****************************/
   
@@ -1908,6 +2153,41 @@ export default {
 
   .navigation_ads {
     margin: 12px 0px 0px 0px;
+  }
+
+  .task_btn {
+    width: 420px;
+    height: 98px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(40px);
+    border-radius: 5px;
+    border: 1px solid #5861C7;
+  }
+
+  .task_name {
+    width: 354px;
+    height: 43px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 33px;
+  }
+
+  .task_target {
+    width: 372px;
+    height: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 3px 0px 0px 24px;
   }
 }
 
