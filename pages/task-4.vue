@@ -23,6 +23,7 @@
                 <div>
                     <p class="theory">3. Для полной задержки фотоэлектронов, выбитых излучением с длиной волны 210 нм из некоторого металла, требуется напряжение 2,7 В. Определите работу выхода электронов для этого вещества.</p>
                 </div>
+                <div class="navHeight"></div>
             </div>
         </div>
     </div>
@@ -62,9 +63,13 @@ export default {
 }
 
 .backround {
-    height: 100vh;
+    height: 100%;
     width: 1920px;
     background: #0D1117;
+}
+
+.navHeight {
+    height: 800px;
 }
 
 .all_navigation {

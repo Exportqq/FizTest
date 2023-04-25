@@ -43,17 +43,16 @@
             </div>
           </div>
           <div class="navigation_all_container">
-            <ul class="list">
-                <li class="serch_li" v-for="item in serchHandler" :key="item.number">
-                  <a v-bind:href="item.page">
-                    <button class="task_btn">
-                      <p class="task_name">{{ item.TaskName }}</p>
-                      <p class="task_target"><span style="color: #FFF500;">Цель работы:</span> {{ item.TaskTarget }}</p>
-                    </button>
-                  </a>
-                </li>
-            </ul>
+            <div class="serch_li" v-for="item in serchHandler" :key="item.number">
+              <a v-bind:href="item.page">
+                <button class="task_btn">
+                  <p class="task_name">{{ item.TaskName }}</p>
+                  <p class="task_target"><span style="color: #FFF500;">Цель работы:</span> {{ item.TaskTarget }}</p>
+                </button>
+              </a>
+            </div>
         </div>
+        <div class="navHeight"></div>
       </div>
     </div>
   </div>
@@ -124,7 +123,11 @@ export default {
   .backround {
     background-color: #0D1117;
     width: 1920px;
-    height: 250vh;
+    height: 100%;
+  }
+
+  .navHeight {
+    height: 80px;
   }
   
   .navigation_header {
@@ -380,7 +383,11 @@ export default {
   .backround {
     background: #0D1117;
     width: 320px;
-    height: 3000px;
+    height: 100%;
+  }
+
+  .navHeight {
+    height: 40px;
   }
 
   .searcher_rectangle {
@@ -620,7 +627,11 @@ export default {
   .backround {
     background: #0D1117;
     width: 340px;
-    height: 3000px;
+    height: 100%;
+  }
+
+  .navHeight {
+    height: 40px;
   }
 
   .searcher_rectangle {
@@ -856,7 +867,11 @@ export default {
   .backround {
     background: #0D1117;
     width: 360px;
-    height: 3000px;
+    height: 100%;
+  }
+
+  .navHeight {
+    height: 40px;
   }
 
   .searcher_rectangle {
@@ -1092,7 +1107,11 @@ export default {
   .backround {
     background: #0D1117;
     width: 380px;
-    height: 3000px;
+    height: 100%;
+  }
+
+  .navHeight {
+    height: 40px;
   }
 
   .searcher_rectangle {
@@ -1328,7 +1347,11 @@ export default {
   .backround {
     background: #0D1117;
     width: 400px;
-    height: 3000px;
+    height: 100%;
+  }
+
+  .navHeight {
+    height: 40px;
   }
 
   .searcher_rectangle {
@@ -1564,7 +1587,11 @@ export default {
   .backround {
     background: #0D1117;
     width: 420px;
-    height: 3000px;
+    height: 100%;
+  }
+
+  .navHeight {
+    height: 40px;
   }
 
   .searcher_rectangle {
@@ -1801,7 +1828,11 @@ export default {
   .backround {
     background: #0D1117;
     width: 440px;
-    height: 3000px;
+    height: 100%;
+  }
+
+  .navHeight {
+    height: 40px;
   }
 
   .searcher_rectangle {
@@ -2038,7 +2069,11 @@ export default {
   .backround {
     background: #0D1117;
     width: 460px;
-    height: 3000px;
+    height: 100%;
+  }
+
+  .navHeight {
+    height: 40px;
   }
 
   .searcher_rectangle {
