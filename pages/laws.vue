@@ -51,7 +51,7 @@
                         <p class="laws_txt">{{ item.LawsName }}</p>
                       </li>
                       <li v-if="item.number = item.number">
-                        <button class="btn_laws_on" @click="item.status = !item.status">Посмотреть</button>
+                        <button class="btn_laws_on" @click="item.status = !item.status">В разработке</button>
                       </li>
                     </ul>
                   </div>
@@ -272,6 +272,10 @@ export default {
     line-height: 59px;
     color: #FFFFFF;
     margin: 49px 0px 0px 70px;
+  }
+
+  input::placeholder {
+    color: rgba(175, 175, 175, 0.58);
   }
   
   .btn_laws_on {

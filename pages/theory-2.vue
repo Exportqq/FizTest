@@ -22,7 +22,7 @@
                     <AdsYandex :refresh="true" class="show-on-desktop" :id="'R-A-2303256-5'"/>
                     <p class="theory">Согласно <span style="font-weight: 700; color: #5861C7">второму постулату</span> Бора излучение света происходит при переходе атома из стационарного состояния с большей энергией Ek в стационарное состояние с меньшей энергией Еn. Энергия излученного фотона равна разности энергий стационарных состояний</p>
                     <p class="theory">При поглощении света атом переходит из стационарного состояния с меньшей энергией в стационарное состояние с большей энергией.Второй постулат, также как и первый, противоречит электродинамике Максвелла, так как согласно этому постулату частота излучения света свидетельствует не об особенностях движения электрона, а лишь об изменении энергии атома. Свои постулаты Бор применил для построения теории простейшей атомной системы — атома водорода. Основная задача состояла в нахождении частот электромагнитных волн, излучаемых водородом. Эти частоты можно найти на основе второго постулата и правила определения стационарных значений энергии атома. Это правило (так называемое правило квантования) Бору опять-таки пришлось постулировать.`Модель атома водорода по Бору. Используя законы механики Ньютона и правило квантования, на основе которого определяются возможные стационарные состояния атома, Бор смог вычислить радиусы орбит электрона и энергии стационарных состояний атома. Минимальный радиус орбиты определяет размеры атома. На рисунке 12.4 значения энергий стационарных состояний (в электрон- вольтах1) отложены на вертикальной оси.</p>
-                    <p class="theory"><span style="font-weight: 700; color: #5861C7">Поглощение света.</span> Поглощение света — процесс, обратный излучению. Атом, поглощая свет, переходит из низших энергетических состояний в высшие. При этом он поглощает излучение той же самой частоты, которую излучает, переходя из высших энергетических состояний в низшие.</p>
+                    <p class="theoryAnBack"><span style="font-weight: 700; color: #5861C7">Поглощение света.</span> Поглощение света — процесс, обратный излучению. Атом, поглощая свет, переходит из низших энергетических состояний в высшие. При этом он поглощает излучение той же самой частоты, которую излучает, переходя из высших энергетических состояний в низшие.</p>
                 </div>
             </div>
         </div>
@@ -63,7 +63,7 @@ export default {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 1920px;
     background: #0D1117;
 }
@@ -105,6 +105,19 @@ ul li {
     margin: 35px 0px 35px 250px;
 }
 
+.theoryAnBack {
+    width: 1423px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 35px 0px 0px 250px;
+    padding: 0px 0px 80px 0px;
+}
+
 @media (min-width: 761px) {
   .show-on-mobile { display: none !important; }
 }
@@ -134,7 +147,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 320px;
     background: #0D1117;
 }
@@ -176,6 +189,19 @@ ul li {
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
 }   
+
+.theoryAnBack {
+    width: 280px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 321px) and (max-width: 340px) {
@@ -199,7 +225,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 340px;
     background: #0D1117;
 }
@@ -240,7 +266,20 @@ ul li {
     line-height: 16px;
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
-}   
+}  
+
+.theoryAnBack {
+    width: 300px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 341px) and (max-width: 360px) {
@@ -264,7 +303,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 360px;
     background: #0D1117;
 }
@@ -305,7 +344,20 @@ ul li {
     line-height: 16px;
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
-}   
+}  
+
+.theoryAnBack {
+    width: 320px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 361px) and (max-width: 380px) {
@@ -329,7 +381,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 380px;
     background: #0D1117;
 }
@@ -370,7 +422,20 @@ ul li {
     line-height: 16px;
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
-}   
+} 
+
+.theoryAnBack {
+    width: 340px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 381px) and (max-width: 400px) {
@@ -394,7 +459,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 400px;
     background: #0D1117;
 }
@@ -436,6 +501,19 @@ ul li {
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
 }   
+
+.theoryAnBack {
+    width: 360px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 401px) and (max-width: 420px) {
@@ -459,7 +537,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 420px;
     background: #0D1117;
 }
@@ -500,7 +578,20 @@ ul li {
     line-height: 17px;
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
-}   
+}  
+
+.theoryAnBack {
+    width: 380px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 421px) and (max-width: 440px) {
@@ -524,7 +615,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 440px;
     background: #0D1117;
 }
@@ -565,7 +656,20 @@ ul li {
     line-height: 18px;
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
-}   
+}  
+
+.theoryAnBack {
+    width: 400px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 441px) and (max-width: 460px) {
@@ -589,7 +693,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 460px;
     background: #0D1117;
 }
@@ -631,5 +735,18 @@ ul li {
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
 }   
+
+.theoryAnBack {
+    width: 420px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 </style>

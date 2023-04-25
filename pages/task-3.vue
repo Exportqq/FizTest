@@ -7,84 +7,89 @@
                         <button onclick="window.location.href='/tasks'" class="btn_back"> Назад </button>
                     </li>
                     <li>
-                        <p class="theory_txt">Волновые и квантовые свойства света (вариант 3)</p>
+                        <p class="theory_txt">Волновые и квантовые свойства света (вариант 13)</p>
                     </li>
                 </ul>
             </div>
             <div>
                 <div>
-                    <p class="theory">1. Какой из световых лучей спектра имеет наименьший показатель преломления?</p>
+                    <p class="theory">1. Укажите наиболее полное определение.</p>
+                    <p class="theory">Дисперсия света - это</p>
                     <div class="navigation">
                         <ul class="list_special">
                             <li>
-                                <p class="task_option">1) для фиолетового луча</p>
+                                <p class="task_option">1) зависимость абсолютного показателя преломления от частоты</p>
                             </li>
                             <li>
-                                <p class="task_option_two">2) для красного луча</p>
+                                <p style="margin: 0px;" class="task_option_two">2) отражения света от оптически менее плотной среды, при котором преломление отсутствует</p>
                             </li>
                         </ul>
-                        <ul class="list">
+                        <ul class="list_special_two">
                             <li>
-                                <p class="task_option">3) для оранжевого луча</p>
+                                <p class="task_option">3) изменение направления распространения волны при прохождении из одной среды в другую</p>
                             </li>
                             <li>
-                                <p class="task_option_two"> 4) для синего луча</p>
+                                <p style="margin: 0px;" class="task_option_two"> 4) явление, при котором угол падения света равен углу падения</p>
                             </li>
                         </ul>
                     </div>
                     <AdsYandex :refresh="true" class="show-on-mobile" :id="'R-A-2303256-3'"/>
                     <AdsYandex :refresh="true" class="show-on-desktop" :id="'R-A-2303256-5'"/>
-                    <p class="theory">2. Уравнение Эйнштейна для фотоэффекта представляет собой применение к данному явлению</p>
+                    <p class="theory">2. От чего зависит максимальная кинетическая энергия фотоэлектронов, выбиваемых из металла при фотоэффекте?</p>
+                    <p class="theory">А. от частоты падающего света</p>
+                    <p class="theory">Б. от интенсивности падающего света</p>
+                    <p class="theory">В. от работы выхода электронов из металла</p>
+                    <p class="theory">Какие утверждения правильны?</p>
                     <div class="navigation">
                         <ul class="list_special">
                             <li>
-                                <p class="task_option">1) закон сохранения импульса</p>
+                                <p class="task_option">1) Б</p>
                             </li>
                             <li>
-                                <p class="task_option_two">2) закон сохранения энергии</p>
+                                <p class="task_option_two">2) А, Б</p>
                             </li>
                         </ul>
                         <ul class="list">
                             <li>
-                                <p class="task_option">3) закон сохранения заряда</p>
+                                <p class="task_option">3) A. B</p>
                             </li>
                             <li>
-                                <p class="task_option_two"> 4) закон сохранения момента импульса</p>
+                                <p class="task_option_two"> 4) А, Б, B</p>
                             </li>
                         </ul>
                     </div>
-                    <p class="theory">3. Импульс фотона, если соответствующая длина волны монохроматического света равна 660 нм, равен примерно</p>
+                    <p class="theory">3.  Красная граница фотоэффекта для лития определяется длиной волны λ₀ = 540 нм. Максимальная скорость вылета электронов Vᵐᵃˣ = 10⁶ м/с. Частота света, которым освещается катод, равна</p>
                     <div class="navigation">
                         <ul class="list_special">
                             <li>
-                                <p class="task_option">1) 1,0 * 10⁻²⁷ (кг*м)/с</p>
+                                <p class="task_option">1) 1.32 * 10¹⁵ Гц</p>
                             </li>
                             <li>
-                                <p class="task_option_two">2) 0,9 * 10⁻²⁷ (кг*м)/с</p>
+                                <p class="task_option_two">2) 1,24 * 10¹⁵ Гц</p>
                             </li>
                         </ul>
                         <ul class="list">
                             <li>
-                                <p class="task_option">3) 1,1 * 10⁻²⁷ (кг*м)/с</p>
+                                <p class="task_option">3) 1,08 * 10¹⁵ Гц</p>
                             </li>
                             <li>
-                                <p class="task_option_two"> 4) по данным задачи импульс фотона рассчитать нельзя</p>
+                                <p class="task_option_two"> 4) 1,67 * 10¹⁴ Гц</p>
                             </li>
                         </ul>
                     </div>
-                    <p class="theory">4. Длина волны, соответствующая красной границе фотоэффекта, равна λгр = 600 нм. Если при облучении фотокатода лучами с длинной волны λ кинетическая энергия выбитых электронов оказалась в два раза больше работы выхода, то отношение λ / λгр равна</p>
+                    <p class="theory">4. Частота света, соответствующая красной границе фотоэффекта, равна Vгр = 2 * 10¹⁵ Гц. Если при облучении фотокатода лучами с частотой света у кинетическая энергия выбитых электронов оказалась в два раза меньше работы выхода, то отношение v / Vгр равно</p>
                     <div class="navigation">
                         <ul class="list_special">
                             <li>
-                                <p class="task_option">1) 1/4</p>
+                                <p class="task_option">1) 1/2</p>
                             </li>
                             <li>
-                                <p class="task_option_two">2) 1/3</p>
+                                <p class="task_option_two">2) 2/3</p>
                             </li>
                         </ul>
                         <ul class="list">
                             <li>
-                                <p class="task_option">3) 1/2</p>
+                                <p class="task_option">3) 3/2</p>
                             </li>
                             <li>
                                 <p class="task_option_two"> 4) 2</p>
@@ -93,45 +98,45 @@
                     </div>
                     <AdsYandex :refresh="true" class="show-on-mobile" :id="'R-A-2303256-4'"/>
                     <AdsYandex :refresh="true" class="show-on-desktop" :id="'R-A-2303256-6'"/>
-                    <p class="theory">5. Световой луч проходит за время t в вакууме расстояние, на ΔL = 60 см большее, чем в прозрачной среде. Если показатель преломления этой среды п = 1,2, то время t равно</p>
+                    <p class="theory">5. Световой луч распространяется в среде с показателем преломления п = 1,7. Если известно, что в среде он прошел путь на ΔL = 15 см меньшее, чем в вакууме, то время распространения луча t равно</p>
                     <div class="navigation">
                         <ul class="list_special">
                             <li>
-                                <p class="task_option">1) 4 нс</p>
+                                <p class="task_option">1) 0,7 нс</p>
                             </li>
                             <li>
-                                <p class="task_option_two">2) 6 нс</p>
+                                <p class="task_option_two">2) 1,2 нс</p>
                             </li>
                         </ul>
                         <ul class="list">
                             <li>
-                                <p class="task_option">3) 9 нс</p>
+                                <p class="task_option">3) 1,5 нс</p>
                             </li>
                             <li>
-                                <p class="task_option_two"> 4) 12 нс</p>
+                                <p class="task_option_two"> 4) 1,6 нс</p>
                             </li>
                         </ul>
                     </div>
-                    <p class="theory">6. Лазер мощностью 1 мВт ежесекундно испускает 2,7 * 10¹⁵ фотонов. Энергия фотона равна</p>
+                    <p class="theory">6. Лазер излучает на длине волны 441 нм. Импульс фотона равен</p>
                     <div class="navigation">
                         <ul class="list_special">
                             <li>
-                                <p class="task_option">1) 1,95 эB</p>
+                                <p class="task_option">1) 1,3 * 10⁻²⁷ (кг*м)/с</p>
                             </li>
                             <li>
-                                <p class="task_option_two">2) 2,31 эВ</p>
+                                <p class="task_option_two">2) 1,5 * 10⁻²⁷ (кг*м)/с</p>
                             </li>
                         </ul>
                         <ul class="list">
                             <li>
-                                <p class="task_option">3) 3,25 эB</p>
+                                <p class="task_option">3) 5,3 * 10⁻²⁷ (кг*м)/</p>
                             </li>
                             <li>
-                                <p class="task_option_two"> 4) 4,55 эВ</p>
+                                <p class="task_option_two"> 4) 8,4 * 10⁻²⁷ (кг*м)/с</p>
                             </li>
                         </ul>
                     </div>
-                    <p class="theoryAnBack">7. Оптическая сила линзы D = 15 дптр. Если изображение, даваемое линзой, прямое, мнимое и увеличенное в 3 раза. Определить расстояние от предмета до изображения. (Ответ выразить в м и округлить до сотых). Построить изображение в линзе.</p>
+                    <p class="theoryAnBack">7. Расстояние между предметом и его изображением L = 15 см. Если изображение действительное, увеличенное, с увеличением Г = 3. Определить оптическую силу линзы.(Ответ округлите до целых). Построить изображение в линзе.</p>
                 </div>
             </div>
         </div>
@@ -260,6 +265,10 @@ ul li {
     height: 74px;
 }
 
+.list_special_two {
+    height: 74px;
+}
+
 @media (min-width: 761px) {
   .show-on-mobile { display: none !important; }
 }
@@ -376,6 +385,10 @@ ul li {
 
 .list_named {
     height: 74px;
+}
+
+.list_special_two {
+    height: 100px;
 }
 }
 
@@ -517,6 +530,10 @@ ul li {
 .list_named {
     height: 74px;
 }
+
+.list_special_two {
+    height: 100px;
+}
 }
 
 @media (min-width: 341px) and (max-width: 360px) {
@@ -631,6 +648,10 @@ ul li {
 
 .list_named {
     height: 74px;
+}
+
+.list_special_two {
+    height: 100px;
 }
 }
 
@@ -747,6 +768,10 @@ ul li {
 .list_named {
     height: 74px;
 }
+
+.list_special_two {
+    height: 100px;
+}
 }
 
 @media (min-width: 381px) and (max-width: 400px) {
@@ -861,6 +886,10 @@ ul li {
 
 .list_named {
     height: 85px;
+}
+
+.list_special_two {
+    height: 100px;
 }
 }
 
@@ -977,6 +1006,10 @@ ul li {
 .list_named {
     height: 85px;
 }
+
+.list_special_two {
+    height: 100px;
+}
 }
 
 @media (min-width: 421px) and (max-width: 440px) {
@@ -1092,6 +1125,10 @@ ul li {
 .list_named {
     height: 85px;
 }
+
+.list_special_two {
+    height: 100px;
+}
 }
 
 @media (min-width: 441px) and (max-width: 460px) {
@@ -1206,6 +1243,10 @@ ul li {
 
 .list_named {
     height: 85px;
+}
+
+.list_special_two {
+    height: 100px;
 }
 }
 </style>

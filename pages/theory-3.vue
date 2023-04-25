@@ -6,7 +6,7 @@
                     <li>
                         <button onclick="window.location.href='/theory'" class="btn_back"> Назад </button>
                     </li>
-                    <li>
+                    <li>  
                         <p class="theory_txt">Химическое действие света</p>
                     </li>
                 </ul>
@@ -19,13 +19,12 @@
                     <AdsYandex :refresh="true" class="show-on-desktop" :id="'R-A-2303256-5'"/>
                     <p class="theory">Важнейшие химические реакции под действием света происходят в зеленых листьях деревьев и траве, в иглах хвои, во многих микроорганизмах. В зеленом листе под действием Солнца осуществляются процессы, необходимые для жизни на Земле. Они дают нам не только пищу, но и кислород для дыхания.</p>
                     <p class="theory">Листья поглощают из воздуха углекислый газ и расщепляют его молекулы на составные части: углерод и кислород.</p>
+                    <p class="theory">Происходит это, как установил русский биолог Климент Аркадьевич Тимирязев, в молекулах хлорофилла под действием красных лучей солнечного спектра. Пристраивая к углеродной цепочке атомы других элементов, извлекаемых корнями из земли, растения строят молекулы белков, жиров и углеводов.</p>
                     <AdsYandex :refresh="true" class="show-on-mobile" :id="'R-A-2303256-4'"/>
                     <AdsYandex :refresh="true" class="show-on-desktop" :id="'R-A-2303256-6'"/>
-                    <p class="theory">Происходит это, как установил русский биолог Климент Аркадьевич Тимирязев, в молекулах хлорофилла под действием красных лучей солнечного спектра. Пристраивая к углеродной цепочке атомы других элементов, извлекаемых корнями из земли, растения строят молекулы белков, жиров и углеводов.</p>
                     <p class="theory">Все это происходит за счет энергии солнечных лучей. Причем здесь особенно важна не только сама энергия, но и та форма, в которой она поступает. Фотосинтез (так называют этот процесс) может протекать только под действием света определенного спектрального состава.</p>
-                    <AdsYandex :refresh="true" class="show-on-mobile" :id="'R-A-2303256-10'"/>
-                    <AdsYandex :refresh="true" class="show-on-desktop" :id="'R-A-2303256-9'"/>
-                    <p class="theory">Механизм фотосинтеза еще не выяснен до конца. Когда это произойдет, для человечества, возможно, наступит новая эра. Белки и другие сложные органические вещества можно будет получать на фабриках под голубым небосводом.</p>
+                    <p class="theory">Важнейшие химические реакции под действием света происходят в зеленых листьях деревьев и траве, в иглах хвои и во многих микроорганизмах.</p>
+                    <p class="theoryAnBack">Механизм фотосинтеза еще не выяснен до конца. Когда это произойдет, для человечества, возможно, наступит новая эра. Белки и другие сложные органические вещества можно будет получать на фабриках под голубым небосводом.</p>
                 </div>
             </div>
         </div>
@@ -66,7 +65,7 @@ export default {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 1920px;
     background: #0D1117;
 }
@@ -108,6 +107,19 @@ ul li {
     margin: 35px 0px 35px 250px;
 }
 
+.theoryAnBack {
+    width: 1423px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 35px 0px 0px 250px;
+    padding: 0px 0px 80px 0px;
+}
+
 @media (min-width: 761px) {
   .show-on-mobile { display: none !important; }
 }
@@ -137,7 +149,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 320px;
     background: #0D1117;
 }
@@ -179,6 +191,19 @@ ul li {
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
 }   
+
+.theoryAnBack {
+    width: 280px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 321px) and (max-width: 340px) {
@@ -202,7 +227,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 340px;
     background: #0D1117;
 }
@@ -243,7 +268,20 @@ ul li {
     line-height: 16px;
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
-}   
+}  
+
+.theoryAnBack {
+    width: 300px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 341px) and (max-width: 360px) {
@@ -267,7 +305,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 360px;
     background: #0D1117;
 }
@@ -308,7 +346,20 @@ ul li {
     line-height: 16px;
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
-}   
+}  
+
+.theoryAnBack {
+    width: 320px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 361px) and (max-width: 380px) {
@@ -332,7 +383,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 380px;
     background: #0D1117;
 }
@@ -373,7 +424,20 @@ ul li {
     line-height: 16px;
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
-}   
+} 
+
+.theoryAnBack {
+    width: 340px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 381px) and (max-width: 400px) {
@@ -397,7 +461,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 400px;
     background: #0D1117;
 }
@@ -439,6 +503,19 @@ ul li {
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
 }   
+
+.theoryAnBack {
+    width: 360px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 401px) and (max-width: 420px) {
@@ -462,7 +539,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 420px;
     background: #0D1117;
 }
@@ -503,7 +580,20 @@ ul li {
     line-height: 17px;
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
-}   
+}  
+
+.theoryAnBack {
+    width: 380px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 421px) and (max-width: 440px) {
@@ -527,7 +617,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 440px;
     background: #0D1117;
 }
@@ -568,7 +658,20 @@ ul li {
     line-height: 18px;
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
-}   
+}  
+
+.theoryAnBack {
+    width: 400px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 441px) and (max-width: 460px) {
@@ -592,7 +695,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 460px;
     background: #0D1117;
 }
@@ -634,5 +737,18 @@ ul li {
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
 }   
+
+.theoryAnBack {
+    width: 420px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 </style>

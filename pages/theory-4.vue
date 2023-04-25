@@ -33,7 +33,7 @@
                     <AdsYandex :refresh="true" class="show-on-mobile" :id="'R-A-2303256-4'"/>
                     <AdsYandex :refresh="true" class="show-on-desktop" :id="'R-A-2303256-6'"/>
                     <p class="theory"> 3. Почему планетарная модель атома не согласуется с законами классической физики?​</p>
-                    <p class="theory"> 4. Определите длину волны света, испускаемого атомом водорода при его переходе из стационарного состояния с энергией Е4 = -0,85 эВ (k = 4) в состояние с энергией Е2 = -3,4 эВ (n = 2).​​</p>
+                    <p class="theoryAnBack"> 4. Определите длину волны света, испускаемого атомом водорода при его переходе из стационарного состояния с энергией Е4 = -0,85 эВ (k = 4) в состояние с энергией Е2 = -3,4 эВ (n = 2).​​</p>
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@ export default {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 1920px;
     background: #0D1117;
 }
@@ -116,6 +116,19 @@ ul li {
     margin: 35px 0px 35px 250px;
 }
 
+.theoryAnBack {
+    width: 1423px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 35px 0px 0px 250px;
+    padding: 0px 0px 80px 0px;
+}
+
 @media (min-width: 761px) {
   .show-on-mobile { display: none !important; }
 }
@@ -145,7 +158,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 320px;
     background: #0D1117;
 }
@@ -187,6 +200,19 @@ ul li {
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
 }   
+
+.theoryAnBack {
+    width: 280px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 321px) and (max-width: 340px) {
@@ -210,7 +236,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 340px;
     background: #0D1117;
 }
@@ -251,7 +277,20 @@ ul li {
     line-height: 16px;
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
-}   
+}  
+
+.theoryAnBack {
+    width: 300px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 341px) and (max-width: 360px) {
@@ -275,7 +314,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 360px;
     background: #0D1117;
 }
@@ -316,7 +355,20 @@ ul li {
     line-height: 16px;
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
-}   
+}  
+
+.theoryAnBack {
+    width: 320px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 361px) and (max-width: 380px) {
@@ -340,7 +392,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 380px;
     background: #0D1117;
 }
@@ -381,7 +433,20 @@ ul li {
     line-height: 16px;
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
-}   
+} 
+
+.theoryAnBack {
+    width: 340px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 381px) and (max-width: 400px) {
@@ -405,7 +470,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 400px;
     background: #0D1117;
 }
@@ -447,6 +512,19 @@ ul li {
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
 }   
+
+.theoryAnBack {
+    width: 360px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 401px) and (max-width: 420px) {
@@ -470,7 +548,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 420px;
     background: #0D1117;
 }
@@ -511,7 +589,20 @@ ul li {
     line-height: 17px;
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
-}   
+}  
+
+.theoryAnBack {
+    width: 380px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 421px) and (max-width: 440px) {
@@ -535,7 +626,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 440px;
     background: #0D1117;
 }
@@ -576,7 +667,20 @@ ul li {
     line-height: 18px;
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
-}   
+}  
+
+.theoryAnBack {
+    width: 400px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 
 @media (min-width: 441px) and (max-width: 460px) {
@@ -600,7 +704,7 @@ ul li {
 }
 
 .backround {
-    height: 2941px;
+    height: 100%;
     width: 460px;
     background: #0D1117;
 }
@@ -642,5 +746,18 @@ ul li {
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
 }   
+
+.theoryAnBack {
+    width: 420px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 30px 0px;
+}
 }
 </style>

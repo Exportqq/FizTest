@@ -7,131 +7,134 @@
                         <button onclick="window.location.href='/tasks'" class="btn_back"> Назад </button>
                     </li>
                     <li>
-                        <p class="theory_txt">Волновые и квантовые свойства света (вариант 3)</p>
+                        <p class="theory_txt">Волновые и квантовые свойства света (вариант 4)</p>
                     </li>
                 </ul>
             </div>
             <div>
                 <div>
-                    <p class="theory">1. Какой из световых лучей спектра имеет наименьший показатель преломления?</p>
+                    <p class="theory">1. При исследовании фотоэффекта значение задерживающей разности потенциалов зависит от</p>
+                    <p class="theory">А. частоты падающего света</p>
+                    <p class="theory">Б. интенсивности падающего света</p>
+                    <p class="theory">В. работы выхода электронов из металла</p>
                     <div class="navigation">
                         <ul class="list_special">
                             <li>
-                                <p class="task_option">1) для фиолетового луча</p>
+                                <p class="task_option">1) A, Б, B</p>
                             </li>
                             <li>
-                                <p class="task_option_two">2) для красного луча</p>
+                                <p class="task_option_two">2) А, Б</p>
                             </li>
                         </ul>
                         <ul class="list">
                             <li>
-                                <p class="task_option">3) для оранжевого луча</p>
+                                <p class="task_option">3) Б, B</p>
                             </li>
                             <li>
-                                <p class="task_option_two"> 4) для синего луча</p>
+                                <p class="task_option_two"> 4) A, B</p>
                             </li>
                         </ul>
                     </div>
                     <AdsYandex :refresh="true" class="show-on-mobile" :id="'R-A-2303256-3'"/>
                     <AdsYandex :refresh="true" class="show-on-desktop" :id="'R-A-2303256-5'"/>
-                    <p class="theory">2. Уравнение Эйнштейна для фотоэффекта представляет собой применение к данному явлению</p>
+                    <p class="theory">2. Укажите наиболее полное определение. Дифракция света - это явление. . .</p>
                     <div class="navigation">
                         <ul class="list_special">
                             <li>
-                                <p class="task_option">1) закон сохранения импульса</p>
+                                <p class="task_option">1) наложения монохроматических когерентных волн</p>
                             </li>
                             <li>
-                                <p class="task_option_two">2) закон сохранения энергии</p>
+                                <p class="task_option_two">2) нарушения прямолинейности распространения световых лучей</p>
                             </li>
                         </ul>
                         <ul class="list">
                             <li>
-                                <p class="task_option">3) закон сохранения заряда</p>
+                                <p class="task_option">3) дифракция световых волн видимого света не наблюдается</p>
                             </li>
                             <li>
-                                <p class="task_option_two"> 4) закон сохранения момента импульса</p>
+                                <p class="task_option_two"> 4) изменения скорости распространения световой волны</p>
                             </li>
                         </ul>
                     </div>
-                    <p class="theory">3. Импульс фотона, если соответствующая длина волны монохроматического света равна 660 нм, равен примерно</p>
+                    <p class="theory_special">3. Определите задерживающую разность потенциалов для фотоэлектронов, вырываемых с поверхности калия (работа выхода А = 23эВ) при его освещении светом с частотой 9 * 10¹⁴ Гц</p>
                     <div class="navigation">
                         <ul class="list_special">
                             <li>
-                                <p class="task_option">1) 1,0 * 10⁻²⁷ (кг*м)/с</p>
+                                <p class="task_option">1) 0.3 B</p>
                             </li>
                             <li>
-                                <p class="task_option_two">2) 0,9 * 10⁻²⁷ (кг*м)/с</p>
+                                <p class="task_option_two">2) 1,2 B</p>
                             </li>
                         </ul>
                         <ul class="list">
                             <li>
-                                <p class="task_option">3) 1,1 * 10⁻²⁷ (кг*м)/с</p>
+                                <p class="task_option">3) 1.7 B</p>
                             </li>
                             <li>
-                                <p class="task_option_two"> 4) по данным задачи импульс фотона рассчитать нельзя</p>
+                                <p class="task_option_two"> 4) 2,1 B</p>
                             </li>
                         </ul>
                     </div>
-                    <p class="theory">4. Длина волны, соответствующая красной границе фотоэффекта, равна λгр = 600 нм. Если при облучении фотокатода лучами с длинной волны λ кинетическая энергия выбитых электронов оказалась в два раза больше работы выхода, то отношение λ / λгр равна</p>
+                    <p class="theory">4. Если энергия фотона равна 1,42 В, то длина волны излучения равна</p>
                     <div class="navigation">
                         <ul class="list_special">
                             <li>
-                                <p class="task_option">1) 1/4</p>
+                                <p class="task_option">1) 450 нм</p>
                             </li>
                             <li>
-                                <p class="task_option_two">2) 1/3</p>
+                                <p class="task_option_two">2) 633 нм</p>
                             </li>
                         </ul>
                         <ul class="list">
                             <li>
-                                <p class="task_option">3) 1/2</p>
+                                <p class="task_option">3) 873 нм</p>
                             </li>
                             <li>
-                                <p class="task_option_two"> 4) 2</p>
+                                <p class="task_option_two"> 4) 945 н.м</p>
                             </li>
                         </ul>
                     </div>
                     <AdsYandex :refresh="true" class="show-on-mobile" :id="'R-A-2303256-4'"/>
                     <AdsYandex :refresh="true" class="show-on-desktop" :id="'R-A-2303256-6'"/>
-                    <p class="theory">5. Световой луч проходит за время t в вакууме расстояние, на ΔL = 60 см большее, чем в прозрачной среде. Если показатель преломления этой среды п = 1,2, то время t равно</p>
+                    <p class="theory">5. Световой луч проходит за t = 10 нс в вакууме расстояние, на ΔL = 30 см большее, чем в прозрачной среде. Показатель преломления этой среды равен</p>
                     <div class="navigation">
                         <ul class="list_special">
                             <li>
-                                <p class="task_option">1) 4 нс</p>
+                                <p class="task_option">1) 1,11</p>
                             </li>
                             <li>
-                                <p class="task_option_two">2) 6 нс</p>
+                                <p class="task_option_two">2) 1,21</p>
                             </li>
                         </ul>
                         <ul class="list">
                             <li>
-                                <p class="task_option">3) 9 нс</p>
+                                <p class="task_option">3) 1,45</p>
                             </li>
                             <li>
-                                <p class="task_option_two"> 4) 12 нс</p>
+                                <p class="task_option_two"> 4) 1,59</p>
                             </li>
                         </ul>
                     </div>
-                    <p class="theory">6. Лазер мощностью 1 мВт ежесекундно испускает 2,7 * 10¹⁵ фотонов. Энергия фотона равна</p>
+                    <p class="theory">6. Лазер мощностью 2 мВт ежесекундно испускает 7 * 10¹⁵ фотонов. Длина волны излучения лазера равна</p>
                     <div class="navigation">
                         <ul class="list_special">
                             <li>
-                                <p class="task_option">1) 1,95 эB</p>
+                                <p class="task_option">1) 441 нм</p>
                             </li>
                             <li>
-                                <p class="task_option_two">2) 2,31 эВ</p>
+                                <p class="task_option_two">2) 488 нм</p>
                             </li>
                         </ul>
                         <ul class="list">
                             <li>
-                                <p class="task_option">3) 3,25 эB</p>
+                                <p class="task_option">3) 514 нм</p>
                             </li>
                             <li>
-                                <p class="task_option_two"> 4) 4,55 эВ</p>
+                                <p class="task_option_two"> 4) 696 нм</p>
                             </li>
                         </ul>
                     </div>
-                    <p class="theoryAnBack">7. Оптическая сила линзы D = 15 дптр. Если изображение, даваемое линзой, прямое, мнимое и увеличенное в 3 раза. Определить расстояние от предмета до изображения. (Ответ выразить в м и округлить до сотых). Построить изображение в линзе.</p>
+                    <p class="theoryAnBack">7. Оптическая сила линзы D = 12 дптр. Если изображение, даваемое линзой, перевернутое, действительное и увеличенное в 5 раз. Определить расстояние от предмета до изображения. (Ответ выразить в м и округлить до десятых). Построить изображение в линзе</p>
                 </div>
             </div>
         </div>
@@ -207,6 +210,18 @@ ul li {
 }
 
 .theory {
+    width: 1423px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 35px 0px 35px 250px;
+}
+
+.theory_special {
     width: 1423px;
     height: auto;
     font-family: 'Montserrat', sans-serif;
@@ -328,6 +343,18 @@ ul li {
     margin: 10px 0px 10px 20px;
 }
 
+.theory_special {
+    width: 280px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 45px 0px 10px 20px;
+}
+
 .theoryAnBack {
     width: 280px;
     height: auto;
@@ -442,6 +469,18 @@ ul li {
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
 }   
+
+.theory_special {
+    width: 300px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 45px 0px 10px 20px;
+}
 
 .theoryAnBack {
     width: 300px;
@@ -583,6 +622,18 @@ ul li {
     margin: 10px 0px 10px 20px;
 }  
 
+.theory_special {
+    width: 320px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 45px 0px 10px 20px;
+}
+
 .theoryAnBack {
     width: 320px;
     height: auto;
@@ -697,6 +748,18 @@ ul li {
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
 }   
+
+.theory_special {
+    width: 340px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 45px 0px 10px 20px;
+}
 
 .theoryAnBack {
     width: 340px;
@@ -813,6 +876,18 @@ ul li {
     margin: 10px 0px 10px 20px;
 }   
 
+.theory_special {
+    width: 360px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 45px 0px 10px 20px;
+}
+
 .theoryAnBack {
     width: 360px;
     height: auto;
@@ -928,6 +1003,18 @@ ul li {
     margin: 10px 0px 10px 20px;
 }  
 
+.theory_special {
+    width: 380px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 45px 0px 10px 20px;
+}
+
 .theoryAnBack {
     width: 380px;
     height: auto;
@@ -1041,7 +1128,19 @@ ul li {
     line-height: 18px;
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
-}   
+}
+
+.theory_special {
+    width: 400px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 45px 0px 10px 20px;
+}
 
 .theoryAnBack {
     width: 400px;
@@ -1157,6 +1256,18 @@ ul li {
     color: #FFFFFF;
     margin: 10px 0px 10px 20px;
 }  
+
+.theory_special {
+    width: 420px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 45px 0px 10px 20px;
+}
 
 .theoryAnBack {
     width: 420px;

@@ -22,7 +22,7 @@
         </div>
       </div>
       <div>
-        <p class="container_txt">Задачи</p>
+        <p class="container_txt">Задания</p>
         <div class="naviagtion_ads">
           <AdsYandex :refresh="true" class="show-on-mobile" :id="'R-A-2303256-7'"/>
           <AdsYandex :refresh="true" class="show-on-desktop" :id="'R-A-2303256-8'"/>
@@ -82,6 +82,12 @@ export default {
               TaskTarget: "Проверка изученного материала",
               page: "/task-3"
           },
+          {
+              number: 4,
+              TaskName: "Задачи по квантовой физике",
+              TaskTarget: "Проверка изученного материала",
+              page: "/task-4"
+          },
           ],
           search: "",
       }
@@ -118,7 +124,7 @@ export default {
   .backround {
     background-color: #0D1117;
     width: 1920px;
-    height: 2000px;
+    height: 250vh;
   }
   
   .navigation_header {
@@ -241,6 +247,7 @@ export default {
     font-weight: 700;
     font-size: 48px;
     line-height: 59px;
+    text-align: center;
     color: #FFFFFF;
     margin: 110px 0px 0px 835px;
   }
