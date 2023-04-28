@@ -63,7 +63,7 @@ export default {
 }
 
 .backround {
-    height: 3000px;
+    height: 5000px;
     width: 1920px;
     background: #0D1117;
 }
